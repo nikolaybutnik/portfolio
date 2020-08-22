@@ -30,7 +30,13 @@ body {
   font-size: 18px;
 }
 
-/* #sticky-footer {
-  flex-shrink: none;
-  background-color: rgb(149, 191, 71);
+/* footer {
+  background: rgb(149, 191, 71);
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 } */
