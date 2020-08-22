@@ -14,3 +14,17 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
+
+.main-content {
+  background-color: white;
+}
+
+#about-heading {
+  margin: 20px;
+}
+
+.about-content {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+}
