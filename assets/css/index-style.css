@@ -3,31 +3,42 @@
 body {
   background-image: url("../images/gplaypattern.png");
   background-repeat: repeat;
-  height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-brand {
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
 .navbar-nav {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
 
-.main-content {
+.section-1 {
   background-color: white;
+}
+
+.section-2 {
+  background-color: rgb(149, 191, 71);
 }
 
 #about-heading {
   margin: 20px;
 }
 
-.about-content {
+p {
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  color: white;
 }
 
 /* footer {
