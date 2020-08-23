@@ -40,3 +40,10 @@ h2 {
   font-weight: 600;
   color: white;
 }
+
+/* Footer */
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
