@@ -27,9 +27,9 @@
     <header>
       <nav
         class="navbar navbar-expand-md navbar-dark"
-        style="background-color: rgb(149, 191, 71);"
+        style="background-color: rgb(88, 170, 238)"
       >
-        <a class="navbar-brand" href="index.html">Nikolay Butnik</a>
+        <a class="navbar-brand" href="index.html" id="name">Nikolay Butnik</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -55,25 +55,22 @@
 
     <main>
       <!-- Main content of the page, first section includes photo and bio -->
-      <section class="container-fluid my-5 shadow-sm section-1">
-        <div class="row">
-          <div class="col-md text-center">
-            <h1>
-              Hi, and welcome
-            </h1>
-            <div class="dropdown-divider"></div>
-          </div>
-        </div>
+      <section class="container-fluid my-5 section-1">
         <div class="row">
           <div class="col-md-4 mx-3 mb-3 mt-2">
             <img
-              class="img-fluid rounded mx-auto d-block"
-              src="assets/images/profile.jpg"
+              class="img-fluid mx-auto d-block"
+              id="profile-photo"
+              src="assets/images/profile.png"
               alt="Profile photo"
+              style="width: 300px; height: 300px"
             />
           </div>
           <!-- Intrductory paragraph -->
           <div class="col-md-6">
+            <div class="col-md text-center">
+              <h1>Hi, and welcome</h1>
+            </div>
             <p>
               My name is Nikolay and I'm an aspiring web developer. Being
               proficient with HTML, CSS, JavaScript and Python, I am able to
@@ -90,50 +87,60 @@
 
       <!-- Main content of the page, second section includes skill icons -->
       <section class="container-fluid shadow-sm section-2">
-        <div class="row pb-3">
-          <div class="col-md-4">
-            <img
-              class="mx-auto d-block"
-              src="assets/images/skills-icon.png"
-              alt="Skills icon"
-              style="width: 300px; height: 300px;"
-            />
-          </div>
-          <div class="col-md-8">
-            <!-- Skills header -->
-            <div class="row">
-              <div class="col text-center">
-                <h2 class="mt-3">SKILLS</h2>
-              </div>
-              <!-- Icons of related skills -->
-              <div class="row">
-                <div class="col">
-                  <img
-                    class="float-left"
-                    src="assets/images/html-icon.png"
-                    alt="HTML logo"
-                    style="width: 230px; height: 230px;"
-                  />
-                  <img
-                    class="float-left"
-                    src="assets/images/css-icon.png"
-                    alt="CSS logo"
-                    style="width: 230px; height: 230px;"
-                  />
-                  <img
-                    class="float-left"
-                    src="assets/images/js-icon.png"
-                    alt="JavaScript logo"
-                    style="width: 230px; height: 230px;"
-                  />
-                  <img
-                    class="float-left"
-                    src="assets/images/python-icon.png"
-                    alt="Python logo"
-                    style="width: 230px; height: 230px;"
-                  />
-                </div>
-              </div>
+        <!-- Icons of related skills -->
+        <div
+          class="col skills-section-wrapper d-flex justify-content-center align-items-center"
+        >
+          <div class="row">
+            <div class="col">
+              <img
+                class="float-left expand"
+                src="assets/images/html-icon.png"
+                alt="HTML logo"
+                style="width: 100px; height: 100px"
+              />
+              <img
+                class="float-left expand"
+                src="assets/images/css-icon.png"
+                alt="CSS logo"
+                style="width: 100px; height: 100px"
+              />
+              <img
+                class="float-left expand"
+                src="assets/images/js-icon.png"
+                alt="JavaScript logo"
+                style="width: 100px; height: 100px"
+              />
+              <img
+                class="float-left expand"
+                src="assets/images/python-icon.png"
+                alt="Python logo"
+                style="width: 100px; height: 100px"
+              />
+              <img
+                class="float-left expand"
+                src="assets/images/nodejs-icon.png"
+                alt="Node.js logo"
+                style="width: 100px; height: 100px"
+              />
+              <img
+                class="float-left expand"
+                src="assets/images/github-icon.png"
+                alt="Github logo"
+                style="width: 100px; height: 100px"
+              />
+              <img
+                class="float-left expand"
+                src="assets/images/bootstrap-icon.png"
+                alt="Bootstrap logo"
+                style="width: 100px; height: 100px"
+              />
+              <img
+                class="float-left expand"
+                src="assets/images/jquery-icon.png"
+                alt="jQuery logo"
+                style="height: 100px"
+              />
             </div>
           </div>
         </div>
@@ -145,10 +152,10 @@
       <div class="container-fluid">
         <a href="https://github.com/nikolaybutnik" target="_blank">
           <img
-            class="align-middle float-left"
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            class="float-left d-flex align-items-center"
+            src="assets/images/GitHub-Mark-64px.png"
             alt="Github icon"
-            style="width: 40px; height: 40px;"
+            style="width: 40px; height: 40px"
         /></a>
         <span class="text-muted"> Nikolay Butnik © Copyright 2020</span>
       </div>
