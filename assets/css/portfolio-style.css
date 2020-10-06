@@ -3,8 +3,7 @@
 
 /* Settings for entire page */
 body {
-  background-image: url("../images/gplaypattern.png");
-  background-repeat: repeat;
+  background-color: aliceblue;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -21,12 +20,12 @@ body {
 
 /* Body */
 .main-content {
-  background-color: white;
+  background-color: aliceblue;
 }
 
 /* Footer */
 footer {
-  background-color: white;
+  background-color: aliceblue;
   text-align: center;
   padding: 20px;
 }
