@@ -28,6 +28,10 @@ body {
   background-color: aliceblue;
 }
 
+.contact-me {
+  border: solid 5px rgb(88, 170, 238);
+}
+
 /* Footer */
 footer {
   background-color: aliceblue;

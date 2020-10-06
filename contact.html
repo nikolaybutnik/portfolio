@@ -19,6 +19,9 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="assets/css/contact-style.css" />
 
+    <!-- Link Font Awesome -->
+    <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet" />
+
     <title>Contact Nikolay</title>
   </head>
   <body>
@@ -55,64 +58,78 @@
     <main>
       <!-- Main content of the page. A form to be filled out and submitted by user. -->
       <section class="container-sm p-3 my-5 main-content">
-        <form>
-          <div class="row">
-            <div class="col-md-8 mx-auto">
-              <h1>Let's get in touch</h1>
-              <div class="dropdown-divider"></div>
-            </div>
-          </div>
-          <div class="form-row justify-content-center">
-            <div class="form-group col-md-4">
-              <label for="inputFirstName">First Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputFirstName"
-                placeholder="First Name"
-                required
-              />
-            </div>
-            <div class="form-group col-md-4">
-              <label for="inputLastName">Last Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="inputLastName"
-                placeholder="Last Name"
-                required
-              />
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <div class="form-group">
-                <label for="inputEmail">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputEmail"
-                  placeholder="Email"
-                  required
-                />
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-8 mx-auto">
+                <h1>Let's get in touch</h1>
+                <div class="dropdown-divider"></div>
               </div>
             </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <div class="form-group">
-                <label for="inputMessage">Message</label>
-                <textarea class="form-control" id="inputMessage" rows="7">
-                </textarea>
+            <form>
+              <div class="form-row justify-content-center">
+                <div class="form-group col-md-4">
+                  <label for="inputFirstName">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputFirstName"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputLastName">Last Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputLastName"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
               </div>
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="inputEmail"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <div class="form-group">
+                    <label for="inputMessage">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="7">
+                    </textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card float-left mx-1 contact-me" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href = "mailto: btnk.nik@gmail.com"><i class="fas fa-envelope"></i> Send me an email</a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/nikolay-b-2887971b7/" target="_blank"><i class="fab fa-linkedin"></i> Find me on LinkedIn</a></li>
+                <li class="list-group-item"><a href="https://github.com/nikolaybutnik" target="_blank"><i class="fab fa-github-square"></i> Find me on GitHub</a></li>
+              </ul>
             </div>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-md-8">
-              <button type="submit" class="btn btn-success">Submit</button>
-            </div>
-          </div>
-        </form>
+        </div>
       </section>
     </main>
 
