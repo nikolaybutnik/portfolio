@@ -23,6 +23,26 @@ body {
   background-color: aliceblue;
 }
 
+.expand:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.btn-primary {
+  margin-bottom: 10px;
+}
+
 /* Footer */
 footer {
   background-color: aliceblue;
