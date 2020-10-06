@@ -18,6 +18,10 @@ body {
   font-weight: 400;
 }
 
+#name {
+  margin-left: 10px;
+}
+
 /* Body */
 .main-content {
   color: rgb(48, 47, 47);
