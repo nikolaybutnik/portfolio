@@ -85,7 +85,11 @@ const Main = () => {
             target="_blank"
             rel="noreferrer"
           >
-            getResume(){' '}
+            <Typical
+              steps={['getResume()', 1500]}
+              loop={Infinity}
+              wrapper="b"
+            />
           </a>
         </div>
       </div>

@@ -37,7 +37,7 @@ function Header() {
           Portfolio
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/contact"
           className={
@@ -46,7 +46,7 @@ function Header() {
         >
           Contact
         </Link>
-      </li>
+      </li> */}
       {/* <li className="nav-item">
         <Link
           to="/contact/learn"

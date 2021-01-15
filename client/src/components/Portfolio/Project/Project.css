@@ -1,3 +1,40 @@
 .card {
   width: 18rem;
 }
+
+.card-body {
+  border-left: solid 5px #06e331;
+  border-right: solid 5px #06e331;
+  border-bottom: solid 5px #06e331;
+}
+
+.card-img-top {
+  border-left: solid 5px #06e331;
+  border-right: solid 5px #06e331;
+  border-top: solid 5px #06e331;
+}
+
+.expand:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+.expand:not(:hover) {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.btn-primary {
+  margin-bottom: 10px;
+}
