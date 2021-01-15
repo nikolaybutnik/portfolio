@@ -1,4 +1,4 @@
-.card {
+/* .card {
   width: 18rem;
 }
 
@@ -29,12 +29,16 @@
   margin-bottom: 15px;
   margin-left: 20px;
   margin-right: 40px;
-}
+} */
 
-.card-title {
+.title {
   font-weight: bolder;
 }
 
-.btn-primary {
-  margin-bottom: 10px;
+.appImg {
+  width: 100%;
+}
+
+.jumbotron {
+  height: 650px;
 }

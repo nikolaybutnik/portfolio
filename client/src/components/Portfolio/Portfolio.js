@@ -1,41 +1,37 @@
 import React from 'react'
-import Typical from 'react-typical'
 import Project from './Project/Project'
 import projectStore from '../../utils/projectStore'
 import './Portfolio.css'
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 
 const Portfolio = () => {
-  const projects1to3 = projectStore.slice(0, 3)
-  const projects4to5 = projectStore.slice(3)
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  }
+
   return (
-    <div className="container-md my-5">
-      <div className="row">
-        <div className="col mt-3">
-          <h1 id="myProjects">
-            <Typical
-              steps={['My Projects', 1500]}
-              loop={Infinity}
-              wrapper="b"
-            />
-          </h1>
-          <div className="dropdown-divider"></div>
-        </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="card-deck">
-          {projects1to3.map((project) => (
-            <Project project={project} />
-          ))}
-        </div>
-      </div>
-      <div className="row justify-content-center">
-        <div className="card-deck">
-          {projects4to5.map((project) => (
-            <Project project={project} />
-          ))}
-        </div>
-      </div>
-    </div>
+    <Carousel responsive={responsive}>
+      {projectStore.map((project) => (
+        <Project project={project} />
+      ))}
+    </Carousel>
   )
 }
 
