@@ -4,7 +4,6 @@ import './Project.css'
 const Project = ({
   project: { title, img, alt, description, link, github },
 }) => {
-  // style={{ backgroundImage: `url(${img}`, backgroundSize: 'cover' }}
   return (
     <div class="jumbotron">
       <div class="container">
