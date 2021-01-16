@@ -43,6 +43,15 @@ const projectStore = [
     link: 'https://mysterious-brushlands-46606.herokuapp.com/',
     github: 'https://github.com/nikolaybutnik/oop-general-hospital',
   },
+  {
+    title: 'EMPLOYEE DIRECTORY',
+    img: 'assets/images/employee-directory-img.png',
+    alt: 'Employee Directory',
+    description:
+      'A web application that allows the user to view, filter and sort a list of employees.',
+    link: 'https://nikolaybutnik.github.io/employee-directory/',
+    github: 'https://github.com/nikolaybutnik/employee-directory',
+  },
 ]
 
 export default projectStore
