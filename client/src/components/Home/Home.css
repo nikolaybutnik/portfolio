@@ -54,3 +54,16 @@
   font-size: 20px;
   transition: 0.3s;
 }
+
+main {
+  margin-left: 64px;
+}
+
+#myHome {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: #06e331;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 13px;
+}
