@@ -10,5 +10,10 @@
   margin-right: auto;
   margin-left: 9.5%;
   width: 75%;
-  height: 90%;
+}
+
+@media only screen and (max-width: 980px) {
+  .jumbotron {
+    margin-bottom: 0rem;
+  }
 }

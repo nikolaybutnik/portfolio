@@ -17,7 +17,7 @@ function App() {
           <React.Fragment>
             <Sidenav location={location} history={history} />
             <main>
-              <Route path="/" exact component={(props) => <Home />} />
+              <Route exact path="/" component={(props) => <Home />} />
               <Route path="/home" component={(props) => <Home />} />
               <Route path="/portfolio" component={(props) => <Portfolio />} />
             </main>
