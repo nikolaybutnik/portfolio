@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://github.com/nikolaybutnik/portfolio/blob/main/client/public/assets/images/profile.png?raw=true" alt="Logo" width="80" height="80">
+    <img src="https://github.com/nikolaybutnik/portfolio/blob/master/client/public/assets/images/profile.png?raw=true" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Nikolay Butnik - Full Stack Web Developer</h3>
@@ -19,7 +19,7 @@
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About This Portfolio</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -28,9 +28,9 @@
   </ol>
 </details>
 
-## About The Project
+## About This Portfolio
 
-![Portfolio Screen Shot](https://github.com/nikolaybutnik/portfolio/blob/main/client/public/assets/images/portfolio-home-img.png?raw=true)
+![Portfolio Screen Shot](https://github.com/nikolaybutnik/portfolio/blob/master/client/public/assets/images/portfolio-home-img.png?raw=true)
 
 In this portfolio I am showcasing the hard work I put in on my journey as a web developer. Please feel free to reach out regarding any of my work, I will be happy to hear from you. [Here's a copy of my resume.](https://drive.google.com/file/d/1PHWpEu6F5LSn0_R7bw6gRFmMTxqpj6Ql/view?usp=sharing)
 
@@ -42,3 +42,9 @@ In this portfolio I am showcasing the hard work I put in on my journey as a web 
 ## Contact
 
 Nikolay Butnik - [Email](mailto:btnk.nik@gmail.com) - [Github](https://github.com/nikolaybutnik)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/github_username
