@@ -52,6 +52,15 @@ const projectStore = [
     link: 'https://nikolaybutnik.github.io/employee-directory/',
     github: 'https://github.com/nikolaybutnik/employee-directory',
   },
+  {
+    title: 'GOOGLE BOOKS SEARCH',
+    img: 'assets/images/google-books-search.png',
+    alt: 'Google Books Search',
+    description:
+      'A web application that allows the user the search for books and save their favorites.',
+    link: 'https://infinite-fortress-13464.herokuapp.com/',
+    github: 'https://github.com/nikolaybutnik/google-books-search',
+  },
 ]
 
 export default projectStore
