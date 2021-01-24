@@ -54,7 +54,7 @@ const projectStore = [
   },
   {
     title: 'GOOGLE BOOKS SEARCH',
-    img: 'assets/images/google-books-search.png',
+    img: 'assets/images/google-books-search-img.png',
     alt: 'Google Books Search',
     description:
       'A web application that allows the user the search for books and save their favorites.',
