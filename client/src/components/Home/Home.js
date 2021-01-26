@@ -90,7 +90,7 @@ const Main = () => {
           <div className="col text-center">
             <a
               id="resume"
-              href="https://drive.google.com/file/d/1PHWpEu6F5LSn0_R7bw6gRFmMTxqpj6Ql/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bw6qNUAb6D7jAtsgTahxc5bzlupblNJ3/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
