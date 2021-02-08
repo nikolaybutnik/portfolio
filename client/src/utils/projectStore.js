@@ -1,5 +1,22 @@
 const projectStore = [
   {
+    title: 'STAR ACADEMY',
+    img: 'assets/images/star-academy-img.png',
+    alt: 'Star Academy',
+    description: 'Learn music the fun way!',
+    link: 'https://sheltered-gorge-59625.herokuapp.com/',
+    github: 'https://github.com/nikolaybutnik/star-academy',
+  },
+  {
+    title: 'OOP GENERAL HOSPITAL',
+    img: 'assets/images/oop-general-hospital-img.png',
+    alt: 'OOP Genral Hospital',
+    description:
+      'A web application that utilizes databases to simulate a light-hearted hospital scenario.',
+    link: 'https://mysterious-brushlands-46606.herokuapp.com/',
+    github: 'https://github.com/nikolaybutnik/oop-general-hospital',
+  },
+  {
     title: 'STOCKBUDDY',
     img: 'assets/images/stokbuddy-img.png',
     alt: 'Stockbuddy',
@@ -7,6 +24,15 @@ const projectStore = [
       'Stockbuddy is a web application that helps beginners enter the world of stock trading.',
     link: 'https://nikolaybutnik.github.io/stock-buddy/',
     github: 'https://github.com/nikolaybutnik/stock-buddy',
+  },
+  {
+    title: 'GOOGLE BOOKS SEARCH',
+    img: 'assets/images/google-books-search-img.png',
+    alt: 'Google Books Search',
+    description:
+      'A web application that allows the user the search for books and save their favorites.',
+    link: 'https://infinite-fortress-13464.herokuapp.com/',
+    github: 'https://github.com/nikolaybutnik/google-books-search',
   },
   {
     title: 'WEATHER DASHBOARD',
@@ -35,15 +61,6 @@ const projectStore = [
     github: 'https://github.com/nikolaybutnik/burger',
   },
   {
-    title: 'OOP GENERAL HOSPITAL',
-    img: 'assets/images/oop-general-hospital-img.png',
-    alt: 'OOP Genral Hospital',
-    description:
-      'A web application that utilizes databases to simulate a light-hearted hospital scenario.',
-    link: 'https://mysterious-brushlands-46606.herokuapp.com/',
-    github: 'https://github.com/nikolaybutnik/oop-general-hospital',
-  },
-  {
     title: 'EMPLOYEE DIRECTORY',
     img: 'assets/images/employee-directory-img.png',
     alt: 'Employee Directory',
@@ -51,15 +68,6 @@ const projectStore = [
       'A web application that allows the user to view, filter and sort a list of employees.',
     link: 'https://nikolaybutnik.github.io/employee-directory/',
     github: 'https://github.com/nikolaybutnik/employee-directory',
-  },
-  {
-    title: 'GOOGLE BOOKS SEARCH',
-    img: 'assets/images/google-books-search-img.png',
-    alt: 'Google Books Search',
-    description:
-      'A web application that allows the user the search for books and save their favorites.',
-    link: 'https://infinite-fortress-13464.herokuapp.com/',
-    github: 'https://github.com/nikolaybutnik/google-books-search',
   },
 ]
 
