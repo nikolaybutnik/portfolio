@@ -4,7 +4,7 @@ const projectStore = [
     img: 'assets/images/star-academy-img.png',
     alt: 'Star Academy',
     description: 'Learn music the fun way!',
-    link: 'https://sheltered-gorge-59625.herokuapp.com/',
+    link: 'https://guarded-crag-12899.herokuapp.com/',
     github: 'https://github.com/nikolaybutnik/star-academy',
   },
   {
