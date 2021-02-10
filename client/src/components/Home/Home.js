@@ -54,7 +54,7 @@ const Main = () => {
           <div className="col">
             <div className="d-flex justify-content-center">
               <a
-                href="https://www.linkedin.com/in/nikolay-b-2887971b7/"
+                href="https://www.linkedin.com/in/nikolay-butnik/"
                 target="_blank"
                 rel="noreferrer"
               >
