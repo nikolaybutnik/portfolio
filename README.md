@@ -1,4 +1,4 @@
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/nikolay-b-2887971b7/)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/nikolay-butnik/)
 
 <br />
 <p align="center">
@@ -38,6 +38,7 @@ In this portfolio I am showcasing the hard work I put in on my journey as a web 
 
 - [React](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
+- [React-sidenav](https://github.com/trendmicro-frontend/react-sidenav)
 
 ## Contact
 
