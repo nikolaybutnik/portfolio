@@ -43,7 +43,7 @@ In this portfolio I am showcasing the hard work I put in on my journey as a web 
 
 ## Contact
 
-Nikolay Butnik - [Email](mailto:btnk.nik@gmail.com) - [Github](https://github.com/nikolaybutnik)
+Nikolay Butnik - [btnk.nik@gmail.com](mailto:btnk.nik@gmail.com) - [Github](https://github.com/nikolaybutnik)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
