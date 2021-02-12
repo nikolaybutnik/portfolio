@@ -10,8 +10,8 @@ const Project = ({
         <img className="appImg" src={img} alt={alt} />
 
         <h1 className="title">{title}</h1>
-        <h4>{description}</h4>
-        <p>
+        <h4 className="description">{description}</h4>
+        <div className="links">
           <a
             class="btn btn-lg btn-clear-light soft-transition"
             href={link}
@@ -21,6 +21,8 @@ const Project = ({
           >
             <i class="fa fa-location-arrow">Deployed project</i>
           </a>
+        </div>
+        <div className="links">
           <a
             class="btn btn-lg btn-clear-light soft-transition"
             href={github}
@@ -30,7 +32,7 @@ const Project = ({
           >
             <i class="fa fa-github-square"> Github</i>
           </a>
-        </p>
+        </div>
       </div>
     </div>
   )
