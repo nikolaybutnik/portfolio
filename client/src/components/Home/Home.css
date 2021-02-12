@@ -6,11 +6,32 @@
   margin-top: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #profilePhoto {
+    width: 150px;
+    height: 150px;
+    border-radius: 125px;
+    border: 5px solid white;
+    margin-top: 20px;
+  }
+}
+
 #greeting {
   font-family: 'Press Start 2P', cursive;
   font-size: 38px;
   color: #06e331;
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #greeting {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    color: #06e331;
+    margin-top: 20px;
+  }
 }
 
 #tags {
@@ -19,10 +40,28 @@
   color: #06e331;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #tags {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: #06e331;
+  }
+}
+
 .icon {
   width: auto;
   height: 100px;
   margin: 20px 40px 20px 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .icon {
+    width: auto;
+    height: 70px;
+    margin: 30px 10px 10px 10px;
+  }
 }
 
 .icon:hover {
@@ -66,4 +105,16 @@ main {
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #myHome {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: #06e331;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+  }
 }
