@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 import Portfolio from './components/Portfolio/Portfolio'
 
 function App() {
-  const [backgroundColor, setBackgroundColor] = useState({ color: '#3A3A3A' })
+  const [backgroundColor] = useState({ color: '#3A3A3A' })
 
   useEffect(() => {
     document.body.style.backgroundColor = backgroundColor.color
@@ -17,9 +17,9 @@ function App() {
           <React.Fragment>
             <Sidenav location={location} history={history} />
             <main>
-              <Route exact path="/" component={(props) => <Home />} />
-              <Route path="/home" component={(props) => <Home />} />
-              <Route path="/portfolio" component={(props) => <Portfolio />} />
+              <Route exact path="/" component={() => <Home />} />
+              <Route path="/home" component={() => <Home />} />
+              <Route path="/portfolio" component={() => <Portfolio />} />
             </main>
           </React.Fragment>
         )}

@@ -1,11 +1,5 @@
 import React from 'react'
-import SideNav, {
-  Toggle,
-  Nav,
-  NavItem,
-  NavIcon,
-  NavText,
-} from '@trendmicro/react-sidenav'
+import SideNav, { NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav'
 // Be sure to include styles at some point, probably during your bootstraping
 import '@trendmicro/react-sidenav/dist/react-sidenav.css'
 import './Sidenav.css'
@@ -32,7 +26,7 @@ function Sidenav({ location, history }) {
           <NavIcon>
             <i className="fa fa-fw fa-code" style={{ fontSize: '1.75em' }} />
           </NavIcon>
-          <NavText>Portfolio</NavText>
+          <NavText>Projects</NavText>
         </NavItem>
       </SideNav.Nav>
     </SideNav>
