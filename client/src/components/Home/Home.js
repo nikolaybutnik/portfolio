@@ -7,11 +7,7 @@ const Main = () => {
   return (
     <>
       <h1 id="myHome">
-        <Typical
-          steps={['Welcome to my portfolio', 1500]}
-          loop={Infinity}
-          wrapper="b"
-        />
+        <Typical steps={['Welcome', 1500]} loop={Infinity} wrapper="b" />
       </h1>
       <div className="dropdown-divider"></div>
       <div className="container-fluid">
