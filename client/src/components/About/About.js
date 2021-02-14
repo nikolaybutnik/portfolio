@@ -10,6 +10,16 @@ const About = () => {
         <Typical steps={['About me', 1500]} loop={Infinity} wrapper="b" />
       </h1>
       <div className="dropdown-divider"></div>
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <img src="" alt="" />
+          </div>
+          <div className="col">
+            <p></p>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
