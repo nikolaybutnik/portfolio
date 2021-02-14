@@ -28,7 +28,7 @@ function Sidenav({ location, history }) {
           </NavIcon>
           <NavText>Projects</NavText>
         </NavItem>
-        <NavItem eventKey="about">
+        {/* <NavItem eventKey="about">
           <NavIcon>
             <i
               className="fa fa-fw fa-address-card"
@@ -36,7 +36,7 @@ function Sidenav({ location, history }) {
             />
           </NavIcon>
           <NavText>About</NavText>
-        </NavItem>
+        </NavItem> */}
       </SideNav.Nav>
     </SideNav>
   )
