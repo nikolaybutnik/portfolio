@@ -28,6 +28,15 @@ function Sidenav({ location, history }) {
           </NavIcon>
           <NavText>Projects</NavText>
         </NavItem>
+        <NavItem eventKey="about">
+          <NavIcon>
+            <i
+              className="fa fa-fw fa-address-card"
+              style={{ fontSize: '1.75em' }}
+            />
+          </NavIcon>
+          <NavText>About</NavText>
+        </NavItem>
       </SideNav.Nav>
     </SideNav>
   )
