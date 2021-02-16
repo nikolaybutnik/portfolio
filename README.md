@@ -11,7 +11,7 @@
   <p align="center">
     Welcome to my online portfolio
     <br />
-    <a href="https://sheltered-gorge-59625.herokuapp.com/"><strong>Explore my work »</strong></a>
+    <a href="https://nikolaybutnik.herokuapp.com/"><strong>Explore my work »</strong></a>
     <br />
 </p>
 
@@ -32,7 +32,7 @@
 
 ![Portfolio Screen Shot](https://github.com/nikolaybutnik/portfolio/blob/master/client/public/assets/images/portfolio-home-img.png?raw=true)
 
-In this portfolio I am showcasing the hard work I put in on my journey as a web developer. Please feel free to reach out regarding any of my work, I will be happy to hear from you. [Here's a copy of my resume.](https://drive.google.com/file/d/1PHWpEu6F5LSn0_R7bw6gRFmMTxqpj6Ql/view?usp=sharing)
+In this portfolio I am showcasing the hard work I put in on my journey as a web developer. Please feel free to reach out regarding any of my work or employment opportunities, I will be happy to hear from you. [Here's a copy of my resume.](https://drive.google.com/file/d/1XVFuUJsJNNtAM3MT5PEXKo4mH9QNRtkn/view?usp=sharing)
 
 ### Built With
 
