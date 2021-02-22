@@ -32,7 +32,7 @@
 
 ![Portfolio Screen Shot](https://github.com/nikolaybutnik/portfolio/blob/master/client/public/assets/images/portfolio-home-img.png?raw=true)
 
-In this portfolio I am showcasing the hard work I put in on my journey as a web developer. Please feel free to reach out regarding any of my work or employment opportunities, I will be happy to hear from you. [Here's a copy of my resume.](https://drive.google.com/file/d/1vIx28JNjch2_Y7RaehMmv1iEGYFryBhC/view?usp=sharing)
+In this portfolio I am showcasing the hard work I put in on my journey as a web developer. Please feel free to reach out regarding any of my work or employment opportunities, I will be happy to hear from you. [Here's a copy of my resume.](https://drive.google.com/file/d/1AtypBF0fYdustOYBHz9Gel43MEyMPelN/view?usp=sharing)
 
 ### Built With
 
