@@ -1,13 +1,12 @@
+$PrimaryColor: #06e331;
+
 #profilePhoto {
   width: 250px;
   height: 250px;
   border-radius: 125px;
   border: 5px solid white;
   margin-top: 50px;
-}
-
-@media only screen and (max-width: 768px) {
-  #profilePhoto {
+  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     width: 150px;
     height: 150px;
@@ -18,12 +17,9 @@
 #greeting {
   font-family: 'Press Start 2P', cursive;
   font-size: 38px;
-  color: #06e331;
+  color: $PrimaryColor;
   margin-top: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-  #greeting {
+  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     font-size: 18px;
   }
@@ -32,11 +28,8 @@
 #tags {
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
-  color: #06e331;
-}
-
-@media only screen and (max-width: 768px) {
-  #tags {
+  color: $PrimaryColor;
+  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     font-size: 15px;
   }
@@ -46,50 +39,37 @@
   width: auto;
   height: 100px;
   margin: 20px 40px 20px 40px;
-}
-
-@media only screen and (max-width: 768px) {
-  .icon {
+  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     height: 70px;
     margin: 30px 10px 10px 10px;
   }
-}
-
-.icon:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.icon:not(:hover) {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  &:not(:hover) {
+    transform: scale(1);
+    transition: 0.3s;
+  }
 }
 
 #resume {
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
-  color: #06e331;
+  color: $PrimaryColor;
   margin-bottom: 50px;
-}
-
-#resume:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  font-size: 21px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#resume:not(:hover) {
-  font-size: 20px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 21px;
+    transition: 0.3s;
+  }
+  &:not(:hover) {
+    font-size: 20px;
+    transition: 0.3s;
+  }
 }
 
 main {
@@ -99,16 +79,12 @@ main {
 #myHome {
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
-  color: #06e331;
+  color: $PrimaryColor;
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 13px;
-}
-
-@media only screen and (max-width: 768px) {
-  #myHome {
+  @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     font-size: 20px;
   }
 }
-/*# sourceMappingURL=Home.css.map */
