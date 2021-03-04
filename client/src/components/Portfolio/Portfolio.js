@@ -1,5 +1,6 @@
 import React from 'react'
 import Project from './Project/Project'
+import ProjectV2 from './ProjectV2/ProjectV2'
 import projectStore from '../../utils/projectStore'
 import './Portfolio.css'
 import Carousel from 'react-multi-carousel'
@@ -61,6 +62,9 @@ const Portfolio = () => {
           <Project project={project} />
         ))}
       </Carousel>
+      {/* {projectStore.map((project) => (
+        <ProjectV2 project={project} />
+      ))} */}
     </>
   )
 }
