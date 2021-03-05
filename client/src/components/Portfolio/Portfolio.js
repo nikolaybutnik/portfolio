@@ -63,7 +63,7 @@ const Portfolio = () => {
         ))}
       </Carousel> */}
       {projectStore.map((project) => (
-        <ProjectV2 project={project} />
+        <ProjectV2 key={project.title} project={project} />
       ))}
     </>
   )
