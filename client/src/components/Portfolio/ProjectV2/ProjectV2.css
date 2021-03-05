@@ -1,27 +1,68 @@
-/* * {
-  box-sizing: border-box;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.container {
-  background-color: lightblue;
+.cardContainer {
+  /* background-color: lightblue; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  margin-bottom: 40px;
 }
 
 .projectCard {
-  background-color: salmon;
-  width: 400px;
+  background-color: #dadada;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 25px 0;
+  -webkit-box-shadow: 0 20px 20px rgba(255, 252, 252, 0.3), 0 0 50px rgba(255, 252, 252, 0.3);
+          box-shadow: 0 20px 20px rgba(255, 252, 252, 0.3), 0 0 50px rgba(255, 252, 252, 0.3);
+}
+
+.appImage {
+  padding-bottom: 20px;
+}
+
+.title {
+  color: #464646;
 }
 
 .description {
-  overflow: auto;
+  color: #464646;
 }
 
-.githubBtn {
-  width: 100px;
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.deployedBtn {
+.links button {
   width: 100px;
-} */
+  margin: 0 20px;
+  background: none;
+  border: none;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 5px 10px rgba(70, 70, 70, 0.3);
+          box-shadow: 0 5px 10px rgba(70, 70, 70, 0.3);
+  font-weight: bold;
+  color: #464646;
+}
+
+.links button:hover {
+  background: #464646;
+  color: #dadada;
+}
+/*# sourceMappingURL=ProjectV2.css.map */
