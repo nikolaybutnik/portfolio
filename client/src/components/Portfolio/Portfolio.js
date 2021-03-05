@@ -14,7 +14,7 @@ const Portfolio = () => {
         <Typical steps={['My Projects', 1500]} loop={Infinity} wrapper="b" />
       </h1>
       <div className="dropdown-divider"></div>
-      {/* <Carousel
+      <Carousel
         additionalTransfrom={0}
         arrows
         autoPlaySpeed={3000}
@@ -61,10 +61,10 @@ const Portfolio = () => {
         {projectStore.map((project) => (
           <Project project={project} />
         ))}
-      </Carousel> */}
-      {projectStore.map((project) => (
+      </Carousel>
+      {/* {projectStore.map((project) => (
         <ProjectV2 key={project.title} project={project} />
-      ))}
+      ))} */}
     </>
   )
 }
