@@ -7,16 +7,42 @@ const ProjectV2 = ({
   const refCard = useRef()
 
   const handleMouseMove = (event) => {
-    const rect = refCard.current.getBoundingClientRect()
+    // const rect = refCard.current.getBoundingClientRect()
 
-    // console.log(rect.left, rect.top, rect.right, rect.bottom)
+    // console.log(
+    //   'left:' + rect.left,
+    //   'top:' + rect.top,
+    //   'right:' + rect.right,
+    //   'bottom:' + rect.bottom
+    // )
 
-    console.log(event.pageX, event.pageY)
+    // console.log(event.pageX, event.pageY)
 
-    const xAxis = ((rect.left + rect.right) / 2 - event.pageX) / 25
-    const yAxis = ((rect.top + rect.bottom) / 2 - event.pageY) / 25
+    // const xAxis = ((rect.left + rect.right) / 2 - event.pageX) / 25
+    // const yAxis = ((rect.top + rect.bottom) / 2 - event.pageY) / 25
 
-    refCard.current.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
+    // refCard.current.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
+
+    const cumulativeOffset = function (element) {
+      const width = element.offsetWidth
+      const height = element.offsetHeight
+      let top = 0,
+        left = 0
+
+      do {
+        left += element.offsetLeft || 0
+        top += element.offsetTop || 0
+        element = element.offsetParent
+      } while (element)
+
+      return {
+        top: top,
+        left: left,
+        right: left + width,
+        bottom: top + height,
+      }
+    }
+    console.log(cumulativeOffset(refCard.current))
   }
 
   const handleMouseEnter = (event) => {
