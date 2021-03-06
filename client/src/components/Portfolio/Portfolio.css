@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 #myProjects {
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
@@ -8,8 +13,24 @@
 }
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
   #myProjects {
+    /* For mobile phones: */
     font-size: 20px;
   }
 }
+
+.projectContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.cardContainer {
+  padding: 0 75px;
+}
+/*# sourceMappingURL=Portfolio.css.map */
