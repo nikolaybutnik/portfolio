@@ -3,7 +3,7 @@ const projectStore = [
     title: 'STAR ACADEMY',
     img: 'assets/images/star-academy-img.png',
     alt: 'Star Academy',
-    description: 'Learn music the fun way!',
+    description: 'Learn music the fun way with daily theory quizzes.',
     link: 'https://guarded-crag-12899.herokuapp.com/',
     github: 'https://github.com/nikolaybutnik/star-academy',
   },
@@ -12,7 +12,7 @@ const projectStore = [
     img: 'assets/images/oop-general-hospital-img.png',
     alt: 'OOP Genral Hospital',
     description:
-      'A web application that utilizes databases to simulate a light-hearted hospital scenario.',
+      'A web application that utilizes databases to simulate a humorous hospital scenario.',
     link: 'https://mysterious-brushlands-46606.herokuapp.com/',
     github: 'https://github.com/nikolaybutnik/oop-general-hospital',
   },
