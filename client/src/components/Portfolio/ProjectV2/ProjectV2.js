@@ -76,12 +76,7 @@ const ProjectV2 = ({
     >
       <div className="projectCard" ref={refCard}>
         <div className="image">
-          <img
-            className="appImage"
-            src="https://placehold.it/250x250"
-            alt={alt}
-            ref={refImage}
-          />
+          <img className="appImage" src={img} alt={alt} ref={refImage} />
         </div>
         <h3 className="title" ref={refTitle}>
           {title}
