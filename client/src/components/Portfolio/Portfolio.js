@@ -1,8 +1,8 @@
 import React from 'react'
-import ProjectV2 from './ProjectV2/ProjectV2'
+import Project from './Project/Project'
 import projectStore from '../../utils/projectStore'
 import './Portfolio.css'
-import 'react-multi-carousel/lib/styles.css'
+// import 'react-multi-carousel/lib/styles.css'
 import Typical from 'react-typical'
 
 const Portfolio = () => {
@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="dropdown-divider"></div>
       <span className="projectContainer">
         {projectStore.map((project) => (
-          <ProjectV2 key={project.title} project={project} />
+          <Project key={project.title} project={project} />
         ))}
       </span>
     </>
