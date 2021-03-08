@@ -8,8 +8,11 @@ import FormControl from 'react-bootstrap/FormControl'
 import Button from 'react-bootstrap/Button'
 
 const NavBar = () => {
+  const style = {
+    backgroundColor: 'red',
+  }
   return (
-    <Navbar bg="light" expand="md">
+    <Navbar className="navbar" bg="light" expand="md" style={style}>
       {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
