@@ -92,10 +92,6 @@
   transition: 0.3s;
 }
 
-main {
-  margin-left: 64px;
-}
-
 #myHome {
   font-family: 'Press Start 2P', cursive;
   font-size: 30px;
