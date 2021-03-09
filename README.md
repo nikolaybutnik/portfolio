@@ -38,8 +38,9 @@ In this portfolio I am showcasing the hard work I put in on my journey as a web 
 
 - [React](https://reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
-- [React-sidenav](https://github.com/trendmicro-frontend/react-sidenav)
+- [React Bootstrap Navbar](https://react-bootstrap.github.io/components/navbar/)
 - [React-typical](https://www.npmjs.com/package/react-typical)
+- [Hover.css](https://ianlunn.github.io/Hover/)
 
 ## Contact
 
