@@ -9,7 +9,11 @@ const Portfolio = () => {
   return (
     <>
       <h1 id="myProjects">
-        <Typical steps={['My Projects', 1500]} loop={Infinity} wrapper="b" />
+        <Typical
+          steps={['Projects.render()', 1500]}
+          loop={Infinity}
+          wrapper="b"
+        />
       </h1>
       <div className="dropdown-divider"></div>
       <span className="projectContainer">
