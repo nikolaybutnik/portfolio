@@ -18,7 +18,7 @@ const Main = () => {
         <div className="row">
           <div className="col">
             <img
-              className="img-fluid mx-auto d-block"
+              className="img-fluid mx-auto d-block hvr-glow"
               id="profilePhoto"
               src="assets/images/profile.png"
               alt="Profile headshot"
