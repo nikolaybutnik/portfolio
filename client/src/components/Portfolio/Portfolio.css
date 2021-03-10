@@ -3,6 +3,10 @@
           box-sizing: border-box;
 }
 
+hr.solidDividerWithMargin {
+  border-top: 2px solid white;
+}
+
 #myProjects {
   font-family: 'Press Start 2P', cursive;
   font-size: 25px;

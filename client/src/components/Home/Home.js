@@ -13,18 +13,19 @@ const Main = () => {
           wrapper="b"
         />
       </h1>
-      <div className="dropdown-divider"></div>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col">
-            <img
-              className="img-fluid mx-auto d-block hvr-glow"
-              id="profilePhoto"
-              src="assets/images/profile.png"
-              alt="Profile headshot"
-            />
-          </div>
+      <hr className="solidDivider"></hr>
+      <div className="homeContent">
+        <div className="backgroundContainer">
+          <img
+            className="hvr-glow"
+            id="profilePhoto"
+            src="assets/images/profile.png"
+            alt="Profile headshot"
+          />
         </div>
+      </div>
+      <hr className="solidDivider"></hr>
+      <div className="container-fluid">
         <div className="row">
           <div className="col">
             <h1 className="text-center" id="greeting">

@@ -14,7 +14,7 @@ const Portfolio = () => {
           wrapper="b"
         />
       </h1>
-      <div className="dropdown-divider"></div>
+      <hr className="solidDividerWithMargin"></hr>
       <span className="projectContainer">
         {projectStore.map((project) => (
           <Project key={project.title} project={project} />

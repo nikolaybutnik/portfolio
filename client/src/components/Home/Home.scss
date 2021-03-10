@@ -1,16 +1,29 @@
 $PrimaryColor: #06e331;
 
+hr.solidDivider {
+  border-top: 2px solid white;
+  margin: 0;
+}
+
+.backgroundContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://i.ibb.co/xGWfXqs/Quantum-Computer-Code-Concept.gif');
+  background-size: cover;
+  background-position: center;
+}
+
 #profilePhoto {
   width: 225px;
   height: 225px;
   border-radius: 125px;
   border: 5px solid white;
-  margin-top: 50px;
+  margin: 25px 0 25px 0;
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     width: 150px;
     height: 150px;
-    margin-top: 20px;
   }
 }
 
@@ -99,6 +112,6 @@ $PrimaryColor: #06e331;
   &:hover,
   &:focus,
   &:active {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
   }
 }
