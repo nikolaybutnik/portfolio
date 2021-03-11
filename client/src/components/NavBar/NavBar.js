@@ -32,6 +32,40 @@ const NavBar = () => {
             </NavDropdown.Item>
           </NavDropdown> */}
         </Nav>
+        <a
+          href="https://www.linkedin.com/in/nikolay-butnik/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="navIcon"
+            src="assets/images/linkedinIconNav.png"
+            alt="Twitter"
+          />
+        </a>
+        <a
+          href="https://github.com/nikolaybutnik"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="navIcon"
+            src="assets/images/githubIconNav.png"
+            alt="GitHub"
+          />
+        </a>
+        <a
+          href="https://twitter.com/nikolaybutnik"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="navIcon"
+            src="assets/images/twitterIconNav.png"
+            alt="Twitter"
+          />
+        </a>
+
         {/* <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
           <Button variant="outline-success">Search</Button>
