@@ -19,6 +19,13 @@
   margin-left: 15px;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
 /* Underline From Left */
 .hvr-underline-from-left {
   display: inline-block;
