@@ -18,9 +18,6 @@ const ProjectV2 = ({
       <div className="projectLeftSide">
         <div className="projectTitle">{title}</div>
         <p className="projectDescription">{description}</p>
-      </div>
-
-      <div className="projectRightSide">
         <div className="projectLinks">
           <a href={github} target="_blank" rel="noreferrer">
             <button>GitHub</button>
@@ -29,8 +26,19 @@ const ProjectV2 = ({
             <button>Demo</button>
           </a>
         </div>
-        <div className="laptopContainer"></div>
-        <div className="phoneContainer"></div>
+      </div>
+
+      <div className="projectRightSide">
+        <div className="laptopContainer">
+          <div className="laptopImage">
+            <img src={imgDesktop} alt={alt} />
+          </div>
+        </div>
+        <div className="mobileContainer">
+          <div className="mobileImage">
+            <img src={imgMobile} alt={alt} />
+          </div>
+        </div>
       </div>
     </div>
   )
