@@ -63,7 +63,7 @@ const Main = () => {
               wrapper="b"
             />
           </a>
-          <a id="projects" href="/portfolio" target="_blank" rel="noreferrer">
+          <a id="projects" href="/portfolio">
             <Typical
               steps={['getProjects()', 1500]}
               loop={Infinity}
