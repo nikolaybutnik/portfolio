@@ -1,90 +1,5 @@
 $PrimaryColor: #06e331;
 
-hr.solidDivider {
-  border-top: 2px solid white;
-  margin: 0;
-}
-
-.backgroundContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url('https://i.ibb.co/xGWfXqs/Quantum-Computer-Code-Concept.gif');
-  background-size: cover;
-  background-position: center;
-}
-
-#profilePhoto {
-  width: 225px;
-  height: 225px;
-  border-radius: 125px;
-  border: 5px solid white;
-  margin: 25px 0 25px 0;
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    width: 150px;
-    height: 150px;
-  }
-}
-
-#greeting {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 30px;
-  color: $PrimaryColor;
-  margin-top: 20px;
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    font-size: 18px;
-  }
-}
-
-#tags {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-  color: $PrimaryColor;
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    font-size: 15px;
-  }
-}
-
-.icon {
-  width: auto;
-  height: 100px;
-  margin: 20px 40px 20px 40px;
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    height: 70px;
-    margin: 30px 10px 10px 10px;
-  }
-  &:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-    cursor: pointer;
-  }
-  &:not(:hover) {
-    transform: scale(1);
-    transition: 0.3s;
-  }
-}
-
-#resume {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-  color: $PrimaryColor;
-  margin-bottom: 50px;
-  &:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 21px;
-    transition: 0.3s;
-  }
-  &:not(:hover) {
-    font-size: 20px;
-    transition: 0.3s;
-  }
-}
-
 #myHome {
   font-family: 'Press Start 2P', cursive;
   font-size: 25px;
@@ -113,5 +28,77 @@ hr.solidDivider {
   &:focus,
   &:active {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.landingPage {
+  width: 100%;
+  height: 100vh;
+  hr.solidDivider {
+    border-top: 2px solid white;
+    margin: 0;
+  }
+  .backgroundContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.ibb.co/xGWfXqs/Quantum-Computer-Code-Concept.gif');
+    background-size: cover;
+    background-position: center;
+    #profilePhoto {
+      width: 225px;
+      height: 225px;
+      border-radius: 125px;
+      border: 5px solid white;
+      margin: 25px 0 25px 0;
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+  #greeting {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: $PrimaryColor;
+    margin-top: 20px;
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      font-size: 18px;
+    }
+  }
+  .landingPageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    #resume,
+    #projects {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 20px;
+      color: $PrimaryColor;
+      margin-top: 20px;
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 21px;
+        transition: 0.3s;
+      }
+      &:not(:hover) {
+        font-size: 20px;
+        transition: 0.3s;
+      }
+    }
+  }
+}
+
+#dynamicTyping {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: $PrimaryColor;
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    font-size: 15px;
   }
 }

@@ -1,116 +1,3 @@
-hr.solidDivider {
-  border-top: 2px solid white;
-  margin: 0;
-}
-
-.backgroundContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: url("https://i.ibb.co/xGWfXqs/Quantum-Computer-Code-Concept.gif");
-  background-size: cover;
-  background-position: center;
-}
-
-#profilePhoto {
-  width: 225px;
-  height: 225px;
-  border-radius: 125px;
-  border: 5px solid white;
-  margin: 25px 0 25px 0;
-}
-
-@media only screen and (max-width: 768px) {
-  #profilePhoto {
-    /* For mobile phones: */
-    width: 150px;
-    height: 150px;
-  }
-}
-
-#greeting {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 30px;
-  color: #06e331;
-  margin-top: 20px;
-}
-
-@media only screen and (max-width: 768px) {
-  #greeting {
-    /* For mobile phones: */
-    font-size: 18px;
-  }
-}
-
-#tags {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-  color: #06e331;
-}
-
-@media only screen and (max-width: 768px) {
-  #tags {
-    /* For mobile phones: */
-    font-size: 15px;
-  }
-}
-
-.icon {
-  width: auto;
-  height: 100px;
-  margin: 20px 40px 20px 40px;
-}
-
-@media only screen and (max-width: 768px) {
-  .icon {
-    /* For mobile phones: */
-    height: 70px;
-    margin: 30px 10px 10px 10px;
-  }
-}
-
-.icon:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-.icon:not(:hover) {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#resume {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-  color: #06e331;
-  margin-bottom: 50px;
-}
-
-#resume:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  font-size: 21px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#resume:not(:hover) {
-  font-size: 20px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
 #myHome {
   font-family: 'Press Start 2P', cursive;
   font-size: 25px;
@@ -147,5 +34,113 @@ hr.solidDivider {
 .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
   -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
           box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.landingPage {
+  width: 100%;
+  height: 100vh;
+}
+
+.landingPage hr.solidDivider {
+  border-top: 2px solid white;
+  margin: 0;
+}
+
+.landingPage .backgroundContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("https://i.ibb.co/xGWfXqs/Quantum-Computer-Code-Concept.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.landingPage .backgroundContainer #profilePhoto {
+  width: 225px;
+  height: 225px;
+  border-radius: 125px;
+  border: 5px solid white;
+  margin: 25px 0 25px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .landingPage .backgroundContainer #profilePhoto {
+    /* For mobile phones: */
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.landingPage #greeting {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: #06e331;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .landingPage #greeting {
+    /* For mobile phones: */
+    font-size: 18px;
+  }
+}
+
+.landingPage .landingPageContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landingPage .landingPageContent #resume,
+.landingPage .landingPageContent #projects {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: #06e331;
+  margin-top: 20px;
+}
+
+.landingPage .landingPageContent #resume:hover,
+.landingPage .landingPageContent #projects:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 21px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.landingPage .landingPageContent #resume:not(:hover),
+.landingPage .landingPageContent #projects:not(:hover) {
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#dynamicTyping {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: #06e331;
+}
+
+@media only screen and (max-width: 768px) {
+  #dynamicTyping {
+    /* For mobile phones: */
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=Home.css.map */
