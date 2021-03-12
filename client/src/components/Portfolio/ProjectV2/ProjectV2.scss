@@ -7,42 +7,39 @@
   width: 100%;
   padding: 10px;
   border-bottom: 2px solid rgb(218, 218, 218);
-}
-
-.projectLeftSide {
-  width: 40vh;
-  .projectTitle {
-    color: rgb(218, 218, 218);
+  .projectLeftSide {
+    width: 40vh;
+    .projectTitle {
+      color: rgb(218, 218, 218);
+    }
+    .projectDescription {
+      color: rgb(218, 218, 218);
+    }
+    .projectLinks {
+      display: inline;
+      width: 100px;
+    }
   }
-  .projectDescription {
-    color: rgb(218, 218, 218);
-  }
-  .projectLinks {
-    display: inline;
-    width: 100px;
-  }
-}
+  .projectRightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .laptopImage img {
+      width: 450px;
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        width: 100%;
+        height: auto;
+      }
+    }
 
-.projectRightSide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.laptopImage img {
-  width: 450px;
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    width: 100%;
-    height: auto;
-  }
-}
-
-.mobileImage img {
-  width: 150px;
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    width: 100%;
-    height: auto;
+    .mobileImage img {
+      width: 150px;
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 }

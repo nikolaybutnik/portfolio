@@ -12,8 +12,6 @@ const NavBar = () => {
       stickyNav()
     }
     const stickyNav = () => {
-      console.log(sticky)
-      console.log(window.pageYOffset)
       if (window.pageYOffset > sticky) {
         navRef.current.classList.add('sticky')
       } else {
