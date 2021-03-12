@@ -58,14 +58,14 @@ const Main = () => {
             rel="noreferrer"
           >
             <Typical
-              steps={['getResume()', 1500]}
+              steps={['getResume()', 2000]}
               loop={Infinity}
               wrapper="b"
             />
           </a>
           <a id="projects" href="/portfolio">
             <Typical
-              steps={['getProjects()', 1500]}
+              steps={[500, 'getProjects()', 2000]}
               loop={Infinity}
               wrapper="b"
             />
