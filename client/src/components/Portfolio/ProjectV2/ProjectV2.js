@@ -2,13 +2,21 @@ import React, { useRef } from 'react'
 import './ProjectV2.css'
 
 const ProjectV2 = ({
-  project: { title, img, alt, description, link, github },
+  project: {
+    title,
+    img,
+    imgDesktop,
+    imgMobile,
+    alt,
+    description,
+    link,
+    github,
+  },
 }) => {
   return (
     <div className="projectContainer">
       <div className="projectLeftSide">
         <div className="projectTitle">{title}</div>
-        {/* <img src={img} alt={alt} /> */}
         <p className="projectDescription">{description}</p>
       </div>
 
@@ -21,6 +29,8 @@ const ProjectV2 = ({
             <button>Demo</button>
           </a>
         </div>
+        <div className="laptopContainer"></div>
+        <div className="phoneContainer"></div>
       </div>
     </div>
   )
