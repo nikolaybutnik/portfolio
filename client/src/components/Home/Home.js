@@ -72,6 +72,10 @@ const Main = () => {
           </a>
         </div>
       </div>
+
+      <div className="landingPageAboutMe"></div>
+
+      <div className="landingPageContact"></div>
     </>
   )
 }
