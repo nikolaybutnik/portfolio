@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.projectContainer {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.projectLeftSide {
+  width: 40vh;
+  .projectTitle {
+    color: rgb(218, 218, 218);
+  }
+  .projectDescription {
+    color: rgb(218, 218, 218);
+  }
+}
+
+.projectRightSide {
+  width: 60vh;
+}
+
+.projectLinks {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
