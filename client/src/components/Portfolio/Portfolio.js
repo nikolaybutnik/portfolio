@@ -20,6 +20,7 @@ const Portfolio = () => {
           <Project key={project.title} project={project} />
         ))}
       </span>
+      <div className="stickyFooter"> © 2021 Nikolay Butnik</div>
     </>
   )
 }

@@ -102,3 +102,13 @@ $PrimaryColor: #06e331;
     font-size: 15px;
   }
 }
+
+.stickyFooter {
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 3px;
+  width: 100%;
+  z-index: 2;
+}

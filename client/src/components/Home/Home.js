@@ -76,6 +76,8 @@ const Main = () => {
       <div className="landingPageAboutMe"></div>
 
       <div className="landingPageContact"></div>
+
+      <div className="stickyFooter"> © 2021 Nikolay Butnik</div>
     </>
   )
 }
