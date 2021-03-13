@@ -18,7 +18,7 @@ const Portfolio = () => {
       <hr className="solidDividerWithMargin"></hr>
       <span className="projectContainer">
         {projectStore.map((project) => (
-          <ProjectV2 key={project.title} project={project} />
+          <Project key={project.title} project={project} />
         ))}
       </span>
       <div className="stickyFooter"> © 2021 Nikolay Butnik</div>
