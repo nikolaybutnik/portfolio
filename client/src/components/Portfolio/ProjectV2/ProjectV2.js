@@ -2,16 +2,7 @@ import React, { useRef } from 'react'
 import './ProjectV2.css'
 
 const ProjectV2 = ({
-  project: {
-    title,
-    img,
-    imgDesktop,
-    imgMobile,
-    alt,
-    description,
-    link,
-    github,
-  },
+  project: { title, imgDesktop, imgMobile, alt, description, link, github },
 }) => {
   return (
     <div className="projectContainer">

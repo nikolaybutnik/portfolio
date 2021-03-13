@@ -18,6 +18,8 @@
 
 .projectContainer .projectLeftSide .projectTitle {
   color: #dadada;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .projectContainer .projectLeftSide .projectDescription {
@@ -26,7 +28,22 @@
 
 .projectContainer .projectLeftSide .projectLinks {
   display: inline;
+}
+
+.projectContainer .projectLeftSide .projectLinks button {
   width: 100px;
+  color: #dadada;
+  margin: 0 20px;
+  background: none;
+  border: 2px solid #dadada;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.projectContainer .projectLeftSide .projectLinks button:hover {
+  background-color: #dadada;
+  color: #464646;
 }
 
 .projectContainer .projectRightSide {
