@@ -92,7 +92,7 @@
 .projectContainer .projectRightSide .mobileContainer:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
-  image-rendering: high-quality;
+  image-rendering: smooth;
   z-index: 3;
 }
 
