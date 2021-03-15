@@ -1,6 +1,5 @@
 import React from 'react'
 import Project from './Project/Project'
-import ProjectV2 from './ProjectV2/ProjectV2'
 import projectStore from '../../utils/projectStore'
 import './Portfolio.css'
 import Typical from 'react-typical'
@@ -18,7 +17,7 @@ const Portfolio = () => {
       <hr className="solidDividerWithMargin"></hr>
       <span className="projectContainer">
         {projectStore.map((project) => (
-          <ProjectV2 key={project.title} project={project} />
+          <Project key={project.title} project={project} />
         ))}
       </span>
       <div className="stickyFooter"> © 2021 Nikolay Butnik</div>

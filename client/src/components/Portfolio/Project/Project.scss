@@ -1,61 +1,75 @@
-$textColor: rgb(70, 70, 70);
-$shadowColor: rgba(255, 252, 252, 0.3);
-$transition: all 0.5s ease-out;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
-.cardContainer {
-  perspective: 1000px;
+.projectContainer {
+  font-family: 'Noto Sans JP', sans-serif;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  margin-bottom: 40px;
-}
-
-.projectCard {
-  transform-style: preserve-3d;
-  background-color: rgb(218, 218, 218);
-  width: 300px;
-  text-align: center;
-  border-radius: 20px;
-  padding: 25px 25px 35px 25px;
-  box-shadow: 0 20px 20px $shadowColor, 0 0 50px $shadowColor;
-}
-
-.appImage {
-  padding-bottom: 20px;
-  transition: $transition;
-}
-
-.title {
-  color: $textColor;
-  transition: $transition;
-}
-
-.description {
-  color: $textColor;
-  transition: $transition;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  transition: $transition;
-  button {
-    width: 100px;
-    margin: 0 20px;
-    background: none;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 5px 10px rgba(70, 70, 70, 0.3);
-    font-weight: bold;
-    color: $textColor;
-    &:hover {
-      background: $textColor;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid rgb(218, 218, 218);
+  .projectLeftSide {
+    padding-left: 20px;
+    width: 40vh;
+    .projectTitle {
       color: rgb(218, 218, 218);
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .projectDescription {
+      color: rgb(218, 218, 218);
+    }
+    .projectLinks {
+      display: inline;
+      button {
+        width: 100px;
+        color: rgb(218, 218, 218);
+        margin: 0 20px;
+        background: none;
+        border: 2px solid rgb(218, 218, 218);
+        border-radius: 15px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        &:hover {
+          background-color: rgb(218, 218, 218);
+          color: rgb(70, 70, 70);
+        }
+      }
+    }
+  }
+  .projectRightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .mobileContainer {
+      margin-left: 50px;
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        margin-left: 10px;
+      }
+      .mobileImage img {
+        width: 100%;
+        height: auto;
+        max-width: 145px;
+      }
+    }
+    .laptopContainer,
+    .mobileContainer {
+      perspective: 1000px;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease-out;;
+      &:hover {
+        transform: scale(1.15);
+        image-rendering: high-quality;
+        z-index: 3;
+      }
+      .laptopImage img {
+        width: 100%;
+        height: auto;
+        max-width: 450px;
+      }
     }
   }
 }

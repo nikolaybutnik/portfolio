@@ -2,16 +2,13 @@ import React, { useRef } from 'react'
 import './Project.css'
 
 const ProjectV2 = ({
-  project: { title, img, alt, description, link, github },
+  project: { title, imgDesktop, imgMobile, alt, description, link, github },
 }) => {
-  const refCard = useRef()
-  const refImage = useRef()
-  const refTitle = useRef()
-  const refDescription = useRef()
-  const refLinks = useRef()
+  const refLaptop = useRef()
+  const refMobile = useRef()
 
   // Card animation as mouse hovers over the container
-  const handleMouseMove = (event) => {
+  const handleMouseMove = (event, ref) => {
     const cumulativeOffset = (element) => {
       const width = element.offsetWidth
       const height = element.offsetHeight
@@ -33,74 +30,69 @@ const ProjectV2 = ({
     }
 
     const xAxis =
-      ((cumulativeOffset(refCard.current).left +
-        cumulativeOffset(refCard.current).right) /
+      ((cumulativeOffset(ref.current).left +
+        cumulativeOffset(ref.current).right) /
         2 -
         event.pageX) /
-      25
+      15
     const yAxis =
-      ((cumulativeOffset(refCard.current).top +
-        cumulativeOffset(refCard.current).bottom) /
+      ((cumulativeOffset(ref.current).top +
+        cumulativeOffset(ref.current).bottom) /
         2 -
         event.pageY) /
-      25
+      15
 
-    refCard.current.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
+    ref.current.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
   }
 
   // Animations as mouse enters the container
-  const handleMouseEnter = (event) => {
-    refCard.current.style.transition = 'none'
-    refImage.current.style.transform = 'translateZ(75px)'
-    refTitle.current.style.transform = 'translateZ(75px)'
-    refDescription.current.style.transform = 'translateZ(75px)'
-    refLinks.current.style.transform = 'translateZ(75px)'
+  const handleMouseEnter = (event, ref) => {
+    ref.current.style.transition = 'none'
+    // ref.current.style.transform = 'translateZ(75px)'
   }
 
   // Animations as mouse leaves the container
-  const handleMouseLeave = (event) => {
-    refCard.current.style.transition = 'all 0.5s ease'
-    refCard.current.style.transform = 'rotateY(0deg) rotateX(0deg)'
-    refImage.current.style.transform = 'translateZ(0)'
-    refTitle.current.style.transform = 'translateZ(0)'
-    refDescription.current.style.transform = 'translateZ(0)'
-    refLinks.current.style.transform = 'translateZ(0)'
+  const handleMouseLeave = (event, ref) => {
+    ref.current.style.transition = 'all 0.5s ease'
+    ref.current.style.transform = 'rotateY(0deg) rotateX(0deg)'
+    // ref.current.style.transform = 'translateZ(0)'
   }
 
   return (
-    <div
-      className="cardContainer"
-      onMouseMove={(event) => handleMouseMove(event)}
-      onMouseEnter={(event) => handleMouseEnter(event)}
-      onMouseLeave={(event) => handleMouseLeave(event)}
-    >
-      <div className="projectCard" ref={refCard}>
-        <div className="image">
-          <img className="appImage" src={img} alt={alt} ref={refImage} />
-        </div>
-        <h3 className="title" ref={refTitle}>
-          {title}
-        </h3>
-        <p className="description" ref={refDescription}>
-          {description}
-        </p>
-        <div className="links" ref={refLinks}>
-          <a
-            className="githubBtn"
-            href={github}
-            target="_blank"
-            rel="noreferrer"
-          >
+    <div className="projectContainer">
+      <div className="projectLeftSide">
+        <div className="projectTitle">{title}</div>
+        <p className="projectDescription">{description}</p>
+        <div className="projectLinks">
+          <a href={github} target="_blank" rel="noreferrer">
             <button>GitHub</button>
           </a>
-          <a
-            className="deployedBtn"
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={link} target="_blank" rel="noreferrer">
             <button>Demo</button>
           </a>
+        </div>
+      </div>
+
+      <div className="projectRightSide">
+        <div
+          className="laptopContainer"
+          onMouseMove={(event) => handleMouseMove(event, refLaptop)}
+          onMouseEnter={(event) => handleMouseEnter(event, refLaptop)}
+          onMouseLeave={(event) => handleMouseLeave(event, refLaptop)}
+        >
+          <div ref={refLaptop} className="laptopImage">
+            <img src={imgDesktop} alt={alt} />
+          </div>
+        </div>
+        <div
+          className="mobileContainer"
+          onMouseMove={(event) => handleMouseMove(event, refMobile)}
+          onMouseEnter={(event) => handleMouseEnter(event, refMobile)}
+          onMouseLeave={(event) => handleMouseLeave(event, refMobile)}
+        >
+          <div ref={refMobile} className="mobileImage">
+            <img src={imgMobile} alt={alt} />
+          </div>
         </div>
       </div>
     </div>
