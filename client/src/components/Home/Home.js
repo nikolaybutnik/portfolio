@@ -77,7 +77,7 @@ const Main = () => {
 
       <div className="landingPageContact"></div>
 
-      <div className="stickyFooter"> © 2021 Nikolay Butnik</div>
+      <div className="footer"> © 2021 Nikolay Butnik</div>
     </>
   )
 }
