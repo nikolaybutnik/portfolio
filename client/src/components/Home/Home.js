@@ -20,7 +20,7 @@ const Main = () => {
           <img
             className="hvr-glow"
             id="profilePhoto"
-            src="assets/images/profile.png"
+            src="assets/images/avatar-default.png"
             alt="Profile headshot"
           />
         </div>

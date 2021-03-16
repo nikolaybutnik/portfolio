@@ -47,8 +47,8 @@ $PrimaryColor: #06e331;
     background-position: center;
     #profilePhoto {
       width: 225px;
-      height: 225px;
-      border-radius: 125px;
+      height: auto;
+      border-radius: 50%;
       border: 5px solid white;
       margin: 25px 0 25px 0;
       @media only screen and (max-width: 768px) {
