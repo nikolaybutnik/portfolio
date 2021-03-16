@@ -1,9 +1,19 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from 'react'
+import React, { useRef } from 'react'
 import Typical from 'react-typical'
 import './Home.css'
 
 const Main = () => {
+  const avatarRef = useRef()
+
+  const handleMouseEnter = () => {
+    avatarRef.current.setAttribute('src', 'assets/images/avatar-silly.png')
+  }
+
+  const handleMouseLeave = () => {
+    avatarRef.current.setAttribute('src', 'assets/images/avatar-default.png')
+  }
+
   return (
     <>
       <h1 id="myHome">
@@ -22,6 +32,9 @@ const Main = () => {
             id="profilePhoto"
             src="assets/images/avatar-default.png"
             alt="Profile headshot"
+            ref={avatarRef}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
           />
         </div>
         <hr className="solidDivider"></hr>
