@@ -1,7 +1,6 @@
 const projectStore = [
   {
     title: 'STAR ACADEMY',
-    img: 'assets/images/star-academy-250x250.png',
     imgDesktop: 'assets/images/StarAcademyDesktop-min.png',
     imgMobile: 'assets/images/StarAcademyMobile-min.png',
     alt: 'Star Academy',
@@ -11,7 +10,6 @@ const projectStore = [
   },
   {
     title: 'OOP GENERAL HOSPITAL',
-    img: 'assets/images/oop-general-hospital-250x250.png',
     imgDesktop: 'assets/images/OOPDesktop-min.png',
     imgMobile: 'assets/images/OOPMobile-min.png',
     alt: 'OOP Genral Hospital',
@@ -22,7 +20,6 @@ const projectStore = [
   },
   {
     title: 'STOCKBUDDY',
-    img: 'assets/images/stockbuddy-250x250.png',
     imgDesktop: 'assets/images/StockbuddyDesktop-min.png',
     imgMobile: 'assets/images/StockbuddyMobile-min.png',
     alt: 'Stockbuddy',
@@ -33,7 +30,6 @@ const projectStore = [
   },
   {
     title: 'GOOGLE BOOKS SEARCH',
-    img: 'assets/images/google-books-search-250x250.png',
     imgDesktop: 'assets/images/GoogleBooksDesktop-min.png',
     imgMobile: 'assets/images/GoogleBooksMobile-min.png',
     alt: 'Google Books Search',
@@ -44,7 +40,6 @@ const projectStore = [
   },
   {
     title: 'WEATHER DASHBOARD',
-    img: 'assets/images/weather-dashboard-250x250.png',
     imgDesktop: 'assets/images/WeatherDesktop-min.png',
     imgMobile: 'assets/images/WeatherMobile-min.png',
     alt: 'Weather Dashboard',
@@ -55,7 +50,6 @@ const projectStore = [
   },
   {
     title: 'WORK DAY SCHEDULER',
-    img: 'assets/images/scheduler-250x250.png',
     imgDesktop: 'assets/images/SchedulerDesktop-min.png',
     imgMobile: 'assets/images/SchedulerMobile-min.png',
     alt: 'Work Day Scheduler',
@@ -65,7 +59,6 @@ const projectStore = [
   },
   {
     title: 'EAT-DA-BURGER!',
-    img: 'assets/images/burger-250x250.png',
     imgDesktop: 'assets/images/BurgerDesktop-min.png',
     imgMobile: 'assets/images/BurgerMobile-min.png',
     alt: 'Eat-Da-Burger',
@@ -76,7 +69,6 @@ const projectStore = [
   },
   {
     title: 'EMPLOYEE DIRECTORY',
-    img: 'assets/images/employee-directory-250x250.png',
     imgDesktop: 'assets/images/EmployeesDesktop-min.png',
     imgMobile: 'assets/images/EmployeesMobile-min.png',
     alt: 'Employee Directory',
