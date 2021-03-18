@@ -59,8 +59,8 @@ const projectStore = [
   },
   {
     title: 'EAT-DA-BURGER!',
-    imgDesktop: 'assets/images/BurgerDesktop-min.png',
-    imgMobile: 'assets/images/BurgerMobile-min.png',
+    imgDesktop: 'assets/images/optimized/BurgerDesktopOptimized.png',
+    imgMobile: 'assets/images/optimized/BurgerMobileOptimized.png',
     alt: 'Eat-Da-Burger',
     description:
       'A web application that keeps track of the burgers you want to eat, and those you have eaten!',
