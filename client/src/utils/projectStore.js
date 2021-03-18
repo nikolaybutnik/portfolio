@@ -1,8 +1,8 @@
 const projectStore = [
   {
     title: 'STAR ACADEMY',
-    imgDesktop: 'assets/images/StarAcademyDesktop-min.png',
-    imgMobile: 'assets/images/StarAcademyMobile-min.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage0.png',
+    imgMobile: 'assets/images/optimized/optimizedImage1.png',
     alt: 'Star Academy',
     description: 'Learn music the fun way with daily theory quizzes.',
     link: 'https://guarded-crag-12899.herokuapp.com/',
@@ -10,8 +10,8 @@ const projectStore = [
   },
   {
     title: 'OOP GENERAL HOSPITAL',
-    imgDesktop: 'assets/images/OOPDesktop-min.png',
-    imgMobile: 'assets/images/OOPMobile-min.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage2.png',
+    imgMobile: 'assets/images/optimized/optimizedImage3.png',
     alt: 'OOP Genral Hospital',
     description:
       'A web application that utilizes databases to simulate a humorous hospital scenario.',
@@ -20,8 +20,8 @@ const projectStore = [
   },
   {
     title: 'STOCKBUDDY',
-    imgDesktop: 'assets/images/StockbuddyDesktop-min.png',
-    imgMobile: 'assets/images/StockbuddyMobile-min.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage4.png',
+    imgMobile: 'assets/images/optimized/optimizedImage5.png',
     alt: 'Stockbuddy',
     description:
       'Stockbuddy is a web application that helps beginners enter the world of stock trading.',
@@ -30,8 +30,8 @@ const projectStore = [
   },
   {
     title: 'GOOGLE BOOKS SEARCH',
-    imgDesktop: 'assets/images/GoogleBooksDesktop-min.png',
-    imgMobile: 'assets/images/GoogleBooksMobile-min.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage6.png',
+    imgMobile: 'assets/images/optimized/optimizedImage7.png',
     alt: 'Google Books Search',
     description:
       'A web application that allows the user the search for books and save their favorites.',
@@ -40,8 +40,8 @@ const projectStore = [
   },
   {
     title: 'WEATHER DASHBOARD',
-    imgDesktop: 'assets/images/WeatherDesktop-min.png',
-    imgMobile: 'assets/images/WeatherMobile-min.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage8.png',
+    imgMobile: 'assets/images/optimized/optimizedImage9.png',
     alt: 'Weather Dashboard',
     description:
       'Search for immediate and future weather conditions around the world.',
@@ -50,8 +50,8 @@ const projectStore = [
   },
   {
     title: 'WORK DAY SCHEDULER',
-    imgDesktop: 'assets/images/SchedulerDesktop-min.png',
-    imgMobile: 'assets/images/SchedulerMobile-min.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage10.png',
+    imgMobile: 'assets/images/optimized/optimizedImage11.png',
     alt: 'Work Day Scheduler',
     description: 'A simple calendar tool to organize the current work day.',
     link: 'https://nikolaybutnik.github.io/work-day-scheduler/',
@@ -59,8 +59,8 @@ const projectStore = [
   },
   {
     title: 'EAT-DA-BURGER!',
-    imgDesktop: 'assets/images/optimized/BurgerDesktopOptimized.png',
-    imgMobile: 'assets/images/optimized/BurgerMobileOptimized.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage12.png',
+    imgMobile: 'assets/images/optimized/optimizedImage13.png',
     alt: 'Eat-Da-Burger',
     description:
       'A web application that keeps track of the burgers you want to eat, and those you have eaten!',
@@ -69,8 +69,8 @@ const projectStore = [
   },
   {
     title: 'EMPLOYEE DIRECTORY',
-    imgDesktop: 'assets/images/EmployeesDesktop-min.png',
-    imgMobile: 'assets/images/EmployeesMobile-min.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage14.png',
+    imgMobile: 'assets/images/optimized/optimizedImage15.png',
     alt: 'Employee Directory',
     description:
       'A web application that allows the user to view, filter and sort a list of employees.',
@@ -79,4 +79,23 @@ const projectStore = [
   },
 ]
 
-export default projectStore
+const imageStore = [
+  './client/public/assets/images/StarAcademyDesktop-min.png',
+  './client/public/assets/images/StarAcademyMobile-min.png',
+  './client/public/assets/images/OOPDesktop-min.png',
+  './client/public/assets/images/OOPMobile-min.png',
+  './client/public/assets/images/StockbuddyDesktop-min.png',
+  './client/public/assets/images/StockbuddyMobile-min.png',
+  './client/public/assets/images/GoogleBooksDesktop-min.png',
+  './client/public/assets/images/GoogleBooksMobile-min.png',
+  './client/public/assets/images/WeatherDesktop-min.png',
+  './client/public/assets/images/WeatherMobile-min.png',
+  './client/public/assets/images/SchedulerDesktop-min.png',
+  './client/public/assets/images/SchedulerMobile-min.png',
+  './client/public/assets/images/BurgerDesktop-min.png',
+  './client/public/assets/images/BurgerMobile-min.png',
+  './client/public/assets/images/EmployeesDesktop-min.png',
+  './client/public/assets/images/EmployeesMobile-min.png',
+]
+
+module.exports = { projectStore, imageStore }

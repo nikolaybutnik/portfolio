@@ -12,17 +12,21 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
 }
 
-sharp('./client/public/assets/images/BurgerDesktop-min.png')
-  .resize(720, 480, {
-    fit: 'inside',
-  })
-  .toFile('./client/public/assets/images/optimized/BurgerDesktopOptimized.png')
+const { imageStore } = require('./client/src/utils/projectStore')
 
-sharp('./client/public/assets/images/BurgerMobile-min.png')
-  .resize(720, 480, {
-    fit: 'inside',
+// Optimize the size of each image in Projects page to increase performance.
+const imageOptimization = (array) => {
+  array.forEach((img, index) => {
+    sharp(img)
+      .resize(720, 480, {
+        fit: 'inside',
+      })
+      .toFile(
+        `./client/public/assets/images/optimized/optimizedImage${index}.png`
+      )
   })
-  .toFile('./client/public/assets/images/optimized/BurgerMobileOptimized.png')
+}
+imageOptimization(imageStore)
 
 // Define API routes here
 

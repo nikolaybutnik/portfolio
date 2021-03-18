@@ -1,6 +1,6 @@
 import React from 'react'
 import Project from './Project/Project'
-import projectStore from '../../utils/projectStore'
+import { projectStore } from '../../utils/projectStore'
 import './Portfolio.css'
 import Typical from 'react-typical'
 
