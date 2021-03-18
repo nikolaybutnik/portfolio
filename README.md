@@ -41,6 +41,7 @@ In this portfolio I am showcasing the hard work I put in on my journey as a web 
 - [React Bootstrap Navbar](https://react-bootstrap.github.io/components/navbar/)
 - [React-typical](https://www.npmjs.com/package/react-typical)
 - [Hover.css](https://ianlunn.github.io/Hover/)
+- [Sharp](https://sharp.pixelplumbing.com/)
 
 ## Contact
 
