@@ -47,6 +47,9 @@
 }
 
 .landingPage .backgroundContainer {
+  position: relative;
+  width: 100%;
+  height: 75vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,25 +59,28 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("https://i.ibb.co/VTyGzgF/wp2856244.gif");
-  background-size: cover;
-  background-position: center;
+  overflow: hidden;
 }
 
-.landingPage .backgroundContainer #profilePhoto {
+.landingPage .backgroundContainer img {
   width: 225px;
   height: auto;
   border-radius: 50%;
   border: 5px solid white;
   margin: 25px 0 25px 0;
+  z-index: 300000;
 }
 
 @media only screen and (max-width: 768px) {
-  .landingPage .backgroundContainer #profilePhoto {
+  .landingPage .backgroundContainer img {
     /* For mobile phones: */
     width: 150px;
     height: 150px;
   }
+}
+
+.landingPage .backgroundContainer .videoContainer {
+  position: absolute;
 }
 
 .landingPage #greeting {

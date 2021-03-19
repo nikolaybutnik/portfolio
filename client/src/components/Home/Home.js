@@ -29,13 +29,17 @@ const Main = () => {
         <div className="backgroundContainer">
           <img
             className="hvr-glow"
-            id="profilePhoto"
             src="assets/images/avatar-default.png"
-            alt="Profile headshot"
+            alt="Profile"
             ref={avatarRef}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           />
+          <div className="videoContainer">
+            <video className="backgroundVideo" autoPlay loop muted>
+              <source src="assets/background.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
         <hr className="solidDivider"></hr>
 
@@ -90,7 +94,7 @@ const Main = () => {
 
       <div className="landingPageContact"></div>
 
-      <div className="footer"> © 2021 Nikolay Butnik</div>
+      {/* <div className="footer"> © 2021 Nikolay Butnik</div> */}
     </>
   )
 }
