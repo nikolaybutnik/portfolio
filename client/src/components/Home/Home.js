@@ -26,6 +26,7 @@ const Main = () => {
 
       <div className="landingPage">
         <hr className="solidDivider"></hr>
+
         <div className="backgroundContainer">
           <img
             className="hvr-glow"
@@ -35,37 +36,38 @@ const Main = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           />
+
+          <div className="overlay">
+            <h1>// Hello world, I'm Nik</h1>
+            <h1>
+              // I'm a
+              <Typical
+                steps={[
+                  ' full stack web developer',
+                  1500,
+                  ' tech enthusiast',
+                  1500,
+                  ' lifelong learner',
+                  1500,
+                  ' creative problem solver',
+                  1500,
+                  'n unshakable optimist',
+                  1500,
+                ]}
+                loop={Infinity}
+                wrapper="b"
+              />
+            </h1>
+          </div>
+
           <div className="videoContainer">
             <video className="backgroundVideo" autoPlay loop muted>
               <source src="assets/background.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
+
         <hr className="solidDivider"></hr>
-
-        <h1 className="text-center" id="greeting">
-          // Hello world, I'm Nik
-        </h1>
-
-        <h2 className="text-center" id="dynamicTyping">
-          // I'm a
-          <Typical
-            steps={[
-              ' full stack web developer',
-              1500,
-              ' tech enthusiast',
-              1500,
-              ' lifelong learner',
-              1500,
-              ' creative problem solver',
-              1500,
-              'n unshakable optimist',
-              1500,
-            ]}
-            loop={Infinity}
-            wrapper="b"
-          />
-        </h2>
 
         <div className="landingPageContent">
           <a
