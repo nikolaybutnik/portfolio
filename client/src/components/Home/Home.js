@@ -9,6 +9,10 @@ import { BiDownArrow } from 'react-icons/bi'
 
 import { Link } from 'react-scroll'
 
+import { Document, Page, pdfjs } from 'react-pdf'
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
+
 const Main = () => {
   const avatarRef = useRef()
 
@@ -77,7 +81,7 @@ const Main = () => {
           <IconContext.Provider
             value={{
               color: 'white',
-              size: '50px',
+              size: '45px',
             }}
           >
             <div className="arrowDown">
@@ -123,7 +127,11 @@ const Main = () => {
             </p>
           </div>
         </div>
-        <div className="pdf">INSERT PDF HERE</div>
+        <div className="resume">
+          <Document file="assets/resume.pdf">
+            <Page pageNumber={1} />
+          </Document>
+        </div>
       </div>
 
       <div className="landingPageContact"></div>
