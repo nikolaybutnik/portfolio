@@ -38,9 +38,9 @@ const Main = () => {
           />
 
           <div className="overlay">
-            <h1>// Hello world, I'm Nik</h1>
+            <h1>Hello world, I'm Nik</h1>
             <h1>
-              // I'm a
+              I'm a
               <Typical
                 steps={[
                   ' full stack web developer',
