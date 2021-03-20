@@ -76,18 +76,10 @@ const Main = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Typical
-              steps={['getResume()', 2000]}
-              loop={Infinity}
-              wrapper="b"
-            />
+            getResume()
           </a>
           <a id="projects" href="/portfolio">
-            <Typical
-              steps={[500, 'getProjects()', 2000]}
-              loop={Infinity}
-              wrapper="b"
-            />
+            getProjects()
           </a>
         </div>
       </div>
