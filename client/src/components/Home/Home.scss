@@ -132,6 +132,27 @@ $PrimaryColor: #06e332;
   z-index: 2;
 }
 
-// .landingPageAboutMe {
-//   height: 100vh;
-// }
+.landingPageAboutMe {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  // @media only screen and (max-width: 768px) {
+  //   flex-direction: column;
+  // }
+  .aboutMeContent {
+    width: 400px;
+    img {
+      float: left;
+      border: 5px solid white;
+      border-radius: 15%;
+      width: 200px;
+      margin-right: 20px;
+    }
+    .aboutMeText {
+      color: white;
+    }
+  }
+  .pdf {
+    color: white;
+  }
+}

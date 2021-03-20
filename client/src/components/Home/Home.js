@@ -83,7 +83,30 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="landingPageAboutMe"></div>
+      <div className="landingPageAboutMe">
+        <div className="aboutMeContent">
+          <img src="assets/images/profile.png" alt="Profile"></img>
+          <div className="aboutMeText">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
+              velit vitae tortor viverra cursus et vel turpis. Nam facilisis
+              ligula quis ipsum interdum faucibus. In dictum orci vitae ante
+              venenatis sagittis. Aliquam aliquam enim id porttitor ultricies.
+              Nulla sit amet scelerisque odio. Ut interdum in orci in
+              sollicitudin. Nam rhoncus quam quis ante luctus placerat.
+            </p>
+            <p>
+              In rutrum vestibulum diam, et auctor diam convallis in. Sed
+              venenatis mi nisl, ut auctor lacus tempus a. Donec egestas ornare
+              mattis. Quisque ullamcorper id arcu vel congue. Vestibulum
+              tincidunt molestie velit id pulvinar. Nam sollicitudin lacinia
+              lorem, a egestas velit vehicula a. Vestibulum id elementum augue.
+              Mauris hendrerit lacus non iaculis pharetra.
+            </p>
+          </div>
+        </div>
+        <div className="pdf">INSERT PDF HERE</div>
+      </div>
 
       <div className="landingPageContact"></div>
 

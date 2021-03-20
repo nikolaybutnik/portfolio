@@ -182,4 +182,34 @@
   width: 100%;
   z-index: 2;
 }
+
+.landingPageAboutMe {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landingPageAboutMe .aboutMeContent {
+  width: 400px;
+}
+
+.landingPageAboutMe .aboutMeContent img {
+  float: left;
+  border: 5px solid white;
+  border-radius: 15%;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.landingPageAboutMe .aboutMeContent .aboutMeText {
+  color: white;
+}
+
+.landingPageAboutMe .pdf {
+  color: white;
+}
 /*# sourceMappingURL=Home.css.map */
