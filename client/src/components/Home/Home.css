@@ -135,6 +135,12 @@
           animation: bounce 2s infinite;
 }
 
+@media only screen and (max-width: 768px) {
+  .landingPage .arrowDown {
+    display: none;
+  }
+}
+
 @-webkit-keyframes bounce {
   0%,
   20%,
@@ -198,6 +204,18 @@
           justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .landingPageAboutMe {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .landingPageAboutMe .aboutMeContent {
   width: 400px;
   margin-top: auto;
@@ -212,6 +230,12 @@
   margin-right: 20px;
 }
 
+@media only screen and (max-width: 850px) {
+  .landingPageAboutMe .aboutMeContent img {
+    width: 150px;
+  }
+}
+
 .landingPageAboutMe .aboutMeContent .aboutMeText {
   color: white;
 }
@@ -219,6 +243,23 @@
 .landingPageAboutMe .resume {
   margin-top: auto;
   margin-bottom: auto;
-  color: white;
+  margin-left: 25px;
+}
+
+.landingPageAboutMe .resume .pdfControls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingPageAboutMe .resume .pdfControls .increaseScale,
+.landingPageAboutMe .resume .pdfControls .decreaseScale {
+  margin: 5px 15px 0 15px;
 }
 /*# sourceMappingURL=Home.css.map */

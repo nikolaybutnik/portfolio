@@ -124,6 +124,9 @@ $PrimaryColor: #06e332;
     height: 10vh;
     display: flex;
     animation: bounce 2s infinite;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
     @keyframes bounce {
       0%,
       20%,
@@ -160,9 +163,10 @@ $PrimaryColor: #06e332;
   height: 100vh;
   display: flex;
   justify-content: center;
-  // @media only screen and (max-width: 768px) {
-  //   flex-direction: column;
-  // }
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
   .aboutMeContent {
     width: 400px;
     margin-top: auto;
@@ -173,6 +177,9 @@ $PrimaryColor: #06e332;
       border-radius: 15%;
       width: 200px;
       margin-right: 20px;
+      @media only screen and (max-width: 850px) {
+        width: 150px;
+      }
     }
     .aboutMeText {
       color: white;
@@ -181,6 +188,15 @@ $PrimaryColor: #06e332;
   .resume {
     margin-top: auto;
     margin-bottom: auto;
-    color: white;
+    margin-left: 25px;
+    .pdfControls {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .increaseScale,
+      .decreaseScale {
+        margin: 5px 15px 0 15px;
+      }
+    }
   }
 }

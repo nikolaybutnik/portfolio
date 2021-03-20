@@ -6,6 +6,7 @@ import Typical from 'react-typical'
 
 import { IconContext } from 'react-icons'
 import { BiDownArrow } from 'react-icons/bi'
+import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa'
 
 import { Link } from 'react-scroll'
 
@@ -128,9 +129,24 @@ const Main = () => {
           </div>
         </div>
         <div className="resume">
-          <Document file="assets/resume.pdf">
-            <Page pageNumber={1} />
+          <Document file="assets/resume.pdf" renderMode="svg">
+            <Page pageNumber={1} scale={0.8} loading="Loading resume..." />
           </Document>
+          <div className="pdfControls">
+            <IconContext.Provider
+              value={{
+                color: 'white',
+                size: '25px',
+              }}
+            >
+              <div className="increaseScale">
+                <FaPlusCircle />
+              </div>
+              <div className="decreaseScale">
+                <FaMinusCircle />
+              </div>
+            </IconContext.Provider>
+          </div>
         </div>
       </div>
 
