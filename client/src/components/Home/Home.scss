@@ -93,31 +93,55 @@ $PrimaryColor: #06e332;
     }
   }
 
-  .pageLinks {
+  // .pageLinks {
+  //   height: 10vh;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   @media only screen and (max-width: 768px) {
+  //     flex-direction: column;
+  //   }
+  //   #resume,
+  //   #projects {
+  //     padding: 0 20px 0 20px;
+  //     font-family: 'Press Start 2P', cursive;
+  //     font-size: 20px;
+  //     color: $PrimaryColor;
+  //     margin-top: 20px;
+  //     &:hover {
+  //       text-decoration: underline;
+  //       cursor: pointer;
+  //       font-size: 21px;
+  //       transition: 0.3s;
+  //     }
+  //     &:not(:hover) {
+  //       font-size: 20px;
+  //       transition: 0.3s;
+  //     }
+  //   }
+  // }
+  .arrowDown {
     height: 10vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    @media only screen and (max-width: 768px) {
-      flex-direction: column;
+    animation: bounce 2s infinite;
+    @keyframes bounce {
+      0%,
+      20%,
+      50%,
+      80%,
+      100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
     }
-    #resume,
-    #projects {
-      padding: 0 20px 0 20px;
-      font-family: 'Press Start 2P', cursive;
-      font-size: 20px;
-      color: $PrimaryColor;
-      margin-top: 20px;
-      &:hover {
-        text-decoration: underline;
-        cursor: pointer;
-        font-size: 21px;
-        transition: 0.3s;
-      }
-      &:not(:hover) {
-        font-size: 20px;
-        transition: 0.3s;
-      }
+    svg {
+      cursor: pointer;
+      margin: auto;
     }
   }
 }
@@ -141,6 +165,8 @@ $PrimaryColor: #06e332;
   // }
   .aboutMeContent {
     width: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
     img {
       float: left;
       border: 5px solid white;
@@ -153,6 +179,8 @@ $PrimaryColor: #06e332;
     }
   }
   .pdf {
+    margin-top: auto;
+    margin-bottom: auto;
     color: white;
   }
 }

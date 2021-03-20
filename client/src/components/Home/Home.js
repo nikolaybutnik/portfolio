@@ -1,7 +1,13 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useRef } from 'react'
-import Typical from 'react-typical'
 import './Home.css'
+
+import Typical from 'react-typical'
+
+import { IconContext } from 'react-icons'
+import { BiDownArrow } from 'react-icons/bi'
+
+import { Link } from 'react-scroll'
 
 const Main = () => {
   const avatarRef = useRef()
@@ -67,8 +73,20 @@ const Main = () => {
         </div>
 
         <hr className="solidDivider"></hr>
+        <Link to="landingPageAboutMe" smooth={true}>
+          <IconContext.Provider
+            value={{
+              color: 'white',
+              size: '50px',
+            }}
+          >
+            <div className="arrowDown">
+              <BiDownArrow />
+            </div>
+          </IconContext.Provider>
+        </Link>
 
-        <div className="pageLinks">
+        {/* <div className="pageLinks">
           <a
             id="resume"
             href="https://drive.google.com/file/d/1AtypBF0fYdustOYBHz9Gel43MEyMPelN/view?usp=sharing"
@@ -80,10 +98,10 @@ const Main = () => {
           <a id="projects" href="/portfolio">
             getProjects()
           </a>
-        </div>
+        </div> */}
       </div>
 
-      <div className="landingPageAboutMe">
+      <div className="landingPageAboutMe" name="landingPageAboutMe">
         <div className="aboutMeContent">
           <img src="assets/images/profile.png" alt="Profile"></img>
           <div className="aboutMeText">
