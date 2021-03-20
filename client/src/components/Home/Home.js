@@ -16,15 +16,14 @@ const Main = () => {
 
   return (
     <>
-      <h1 id="myHome">
-        <Typical
-          steps={['Welcome.message()', 1500]}
-          loop={Infinity}
-          wrapper="b"
-        />
-      </h1>
-
       <div className="landingPage">
+        <h1 id="myHome">
+          <Typical
+            steps={['Welcome.message()', 1500]}
+            loop={Infinity}
+            wrapper="b"
+          />
+        </h1>
         <hr className="solidDivider"></hr>
 
         <div className="backgroundContainer">
@@ -69,7 +68,7 @@ const Main = () => {
 
         <hr className="solidDivider"></hr>
 
-        <div className="landingPageContent">
+        <div className="pageLinks">
           <a
             id="resume"
             href="https://drive.google.com/file/d/1AtypBF0fYdustOYBHz9Gel43MEyMPelN/view?usp=sharing"
