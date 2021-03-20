@@ -261,5 +261,6 @@
 .landingPageAboutMe .resume .pdfControls .increaseScale,
 .landingPageAboutMe .resume .pdfControls .decreaseScale {
   margin: 5px 15px 0 15px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Home.css.map */

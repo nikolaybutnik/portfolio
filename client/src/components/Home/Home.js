@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import './Home.css'
 
 import Typical from 'react-typical'
@@ -15,12 +15,19 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 
 const Main = () => {
-  const avatarRef = useRef()
+  const [pdfScale, setPdfScale] = useState(0.8)
+  const handleScaleIncrease = () => {
+    setPdfScale(pdfScale + 0.1)
+  }
+  const handleScaleDecrease = () => {
+    setPdfScale(pdfScale - 0.1)
+  }
 
+  // Change image source on avatar mouse hover.
+  const avatarRef = useRef()
   const handleMouseEnter = () => {
     avatarRef.current.setAttribute('src', 'assets/images/avatar-silly.png')
   }
-
   const handleMouseLeave = () => {
     avatarRef.current.setAttribute('src', 'assets/images/avatar-default.png')
   }
@@ -130,8 +137,12 @@ const Main = () => {
         </div>
         <div className="resume">
           <Document file="assets/resume.pdf" renderMode="svg">
-            <Page pageNumber={1} scale={0.8} loading="Loading resume..." />
+            <Page pageNumber={1} scale={pdfScale} loading="Loading resume..." />
           </Document>
+
+          {/* Using the PDF controls messes up Typical. 
+          Rerender Typical if controls are used */}
+
           <div className="pdfControls">
             <IconContext.Provider
               value={{
@@ -139,10 +150,10 @@ const Main = () => {
                 size: '25px',
               }}
             >
-              <div className="increaseScale">
+              <div className="increaseScale" onClick={handleScaleIncrease}>
                 <FaPlusCircle />
               </div>
-              <div className="decreaseScale">
+              <div className="decreaseScale" onClick={handleScaleDecrease}>
                 <FaMinusCircle />
               </div>
             </IconContext.Provider>
