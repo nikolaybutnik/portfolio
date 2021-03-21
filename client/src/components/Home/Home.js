@@ -143,7 +143,9 @@ const Main = () => {
               <div className="increaseScale" onClick={handleScaleIncrease}>
                 <FaPlusCircle />
               </div>
-              <div className="scalePercentage">{`${pdfScale * 100}%`}</div>
+              <div className="scalePercentage">{`${Math.round(
+                pdfScale * 100
+              )}%`}</div>
               <div className="decreaseScale" onClick={handleScaleDecrease}>
                 <FaMinusCircle />
               </div>
