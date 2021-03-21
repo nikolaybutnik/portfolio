@@ -105,20 +105,25 @@ const Main = () => {
           <img src="assets/images/profile.png" alt="Profile"></img>
           <div className="aboutMeText">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a
-              velit vitae tortor viverra cursus et vel turpis. Nam facilisis
-              ligula quis ipsum interdum faucibus. In dictum orci vitae ante
-              venenatis sagittis. Aliquam aliquam enim id porttitor ultricies.
-              Nulla sit amet scelerisque odio. Ut interdum in orci in
-              sollicitudin. Nam rhoncus quam quis ante luctus placerat.
+              Hey there, my name is Nik. I'm a full stack web developer with a
+              background in construction estimation and a passion for coding.
             </p>
             <p>
-              In rutrum vestibulum diam, et auctor diam convallis in. Sed
-              venenatis mi nisl, ut auctor lacus tempus a. Donec egestas ornare
-              mattis. Quisque ullamcorper id arcu vel congue. Vestibulum
-              tincidunt molestie velit id pulvinar. Nam sollicitudin lacinia
-              lorem, a egestas velit vehicula a. Vestibulum id elementum augue.
-              Mauris hendrerit lacus non iaculis pharetra.
+              Problem solving has been a running theme throughout my career in
+              construction, and I use my background in a highly fast-paced and
+              results driven environment to create effective solutions through
+              both front end and back end technologies.
+            </p>
+            <p>
+              I'm a relentless pursuer of personal and career growth, and a
+              strong believer that effort will always trump talent. My greatest
+              asset is the ability and willingness to learn anything, and I am
+              always enthusiastic to add a new tool to my arsenal.
+            </p>
+            <p>
+              I truly believe code is among the greatest and most impactful
+              tools known to us, and if you share this belief I would love to
+              hear from you!
             </p>
           </div>
         </div>
