@@ -105,14 +105,14 @@ const Main = () => {
           <img src="assets/images/profile.png" alt="Profile"></img>
           <div className="aboutMeText">
             <p>
-              Hey there, my name is Nik. I'm a full stack web developer with a
+              Hey there, my name is Nik. I'm a full stack developer with a
               background in construction estimation and a passion for coding.
             </p>
             <p>
               Problem solving has been a running theme throughout my career in
               construction, and I use my background in a highly fast-paced and
-              results driven environment to create effective solutions through
-              both front end and back end technologies.
+              results driven environment to create effective and timely
+              solutions through both front end and back end technologies.
             </p>
             <p>
               I'm a relentless pursuer of personal and career growth, and a
@@ -141,7 +141,7 @@ const Main = () => {
           <div className="pdfControls">
             <IconContext.Provider
               value={{
-                color: 'white',
+                color: 'rgb(218, 218, 218)',
                 size: '25px',
               }}
             >

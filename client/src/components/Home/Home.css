@@ -230,7 +230,7 @@
 
 .landingPageAboutMe .aboutMeContent img {
   float: left;
-  border: 5px solid white;
+  border: 5px solid #dadada;
   border-radius: 15%;
   width: 200px;
   margin-right: 20px;
@@ -243,7 +243,8 @@
 }
 
 .landingPageAboutMe .aboutMeContent .aboutMeText {
-  color: white;
+  color: #dadada;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .landingPageAboutMe .resume {
@@ -272,7 +273,7 @@
 }
 
 .landingPageAboutMe .resume .pdfControls .scalePercentage {
-  color: white;
+  color: #dadada;
 }
 
 .landingPageAboutMe .resume .pdfControls .increaseScale,
