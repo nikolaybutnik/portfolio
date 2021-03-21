@@ -15,6 +15,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`
 
 const Main = () => {
+  // PDF scale controls
   const [pdfScale, setPdfScale] = useState(0.8)
   const handleScaleIncrease = () => {
     setPdfScale(pdfScale + 0.1)
@@ -97,20 +98,6 @@ const Main = () => {
             </div>
           </IconContext.Provider>
         </Link>
-
-        {/* <div className="pageLinks">
-          <a
-            id="resume"
-            href="https://drive.google.com/file/d/1AtypBF0fYdustOYBHz9Gel43MEyMPelN/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            getResume()
-          </a>
-          <a id="projects" href="/portfolio">
-            getProjects()
-          </a>
-        </div> */}
       </div>
 
       <div className="landingPageAboutMe" name="landingPageAboutMe">

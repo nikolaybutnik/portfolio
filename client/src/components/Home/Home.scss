@@ -93,33 +93,6 @@ $PrimaryColor: #06e332;
     }
   }
 
-  // .pageLinks {
-  //   height: 10vh;
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   @media only screen and (max-width: 768px) {
-  //     flex-direction: column;
-  //   }
-  //   #resume,
-  //   #projects {
-  //     padding: 0 20px 0 20px;
-  //     font-family: 'Press Start 2P', cursive;
-  //     font-size: 20px;
-  //     color: $PrimaryColor;
-  //     margin-top: 20px;
-  //     &:hover {
-  //       text-decoration: underline;
-  //       cursor: pointer;
-  //       font-size: 21px;
-  //       transition: 0.3s;
-  //     }
-  //     &:not(:hover) {
-  //       font-size: 20px;
-  //       transition: 0.3s;
-  //     }
-  //   }
-  // }
   .arrowDown {
     height: 10vh;
     display: flex;
