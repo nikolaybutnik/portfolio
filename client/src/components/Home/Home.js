@@ -6,7 +6,7 @@ import Typical from 'react-typical'
 
 import { IconContext } from 'react-icons'
 import { BiDownArrow } from 'react-icons/bi'
-import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa'
+import { FaPlusCircle, FaMinusCircle, FaFileDownload } from 'react-icons/fa'
 
 import { Link } from 'react-scroll'
 
@@ -136,7 +136,10 @@ const Main = () => {
           </div>
         </div>
         <div className="resume">
-          <Document file="assets/resume.pdf" renderMode="svg">
+          <Document
+            file="assets/nikolay-butnik-full-stack-developer.pdf"
+            renderMode="svg"
+          >
             <Page pageNumber={1} scale={pdfScale} loading="Loading resume..." />
           </Document>
 
@@ -156,6 +159,13 @@ const Main = () => {
               <div className="decreaseScale" onClick={handleScaleDecrease}>
                 <FaMinusCircle />
               </div>
+              <a
+                href="assets/nikolay-butnik-full-stack-developer.pdf"
+                download
+                className="downloadFile"
+              >
+                <FaFileDownload />
+              </a>
             </IconContext.Provider>
           </div>
         </div>

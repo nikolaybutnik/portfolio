@@ -157,6 +157,9 @@ $PrimaryColor: #06e332;
   padding-bottom: 3px;
   width: 100%;
   z-index: 2;
+  @media only screen and (max-width: 768px) {
+    margin-top: 300px;
+  }
 }
 
 .landingPageAboutMe {
@@ -194,8 +197,9 @@ $PrimaryColor: #06e332;
       justify-content: center;
       align-items: center;
       .increaseScale,
-      .decreaseScale {
-        margin: 5px 15px 0 15px;
+      .decreaseScale,
+      .downloadFile {
+        margin: 5px 15px 5px 15px;
         cursor: pointer;
       }
     }

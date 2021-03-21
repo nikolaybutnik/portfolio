@@ -194,6 +194,12 @@
   z-index: 2;
 }
 
+@media only screen and (max-width: 768px) {
+  .footer {
+    margin-top: 300px;
+  }
+}
+
 .landingPageAboutMe {
   height: 100vh;
   display: -webkit-box;
@@ -259,8 +265,9 @@
 }
 
 .landingPageAboutMe .resume .pdfControls .increaseScale,
-.landingPageAboutMe .resume .pdfControls .decreaseScale {
-  margin: 5px 15px 0 15px;
+.landingPageAboutMe .resume .pdfControls .decreaseScale,
+.landingPageAboutMe .resume .pdfControls .downloadFile {
+  margin: 5px 15px 5px 15px;
   cursor: pointer;
 }
 /*# sourceMappingURL=Home.css.map */
