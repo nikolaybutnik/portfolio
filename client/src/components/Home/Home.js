@@ -16,7 +16,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const Main = () => {
   // PDF scale controls
-  const [pdfScale, setPdfScale] = useState(0.8)
+  const [pdfScale, setPdfScale] = useState(0.7)
   const handleScaleIncrease = () => {
     setPdfScale(pdfScale + 0.1)
   }
@@ -86,7 +86,7 @@ const Main = () => {
         </div>
 
         <hr className="solidDivider"></hr>
-        <Link to="landingPageAboutMe" smooth={true}>
+        <Link to="landingPageAboutMe" smooth={true} offset={-50}>
           <IconContext.Provider
             value={{
               color: 'white',
