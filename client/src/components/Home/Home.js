@@ -145,14 +145,14 @@ const Main = () => {
                 size: '25px',
               }}
             >
-              <div className="increaseScale" onClick={handleScaleIncrease}>
-                <FaPlusCircle />
+              <div className="decreaseScale" onClick={handleScaleDecrease}>
+                <FaMinusCircle />
               </div>
               <div className="scalePercentage">{`${Math.round(
                 pdfScale * 100
               )}%`}</div>
-              <div className="decreaseScale" onClick={handleScaleDecrease}>
-                <FaMinusCircle />
+              <div className="increaseScale" onClick={handleScaleIncrease}>
+                <FaPlusCircle />
               </div>
               <a
                 href="assets/nikolay-butnik-full-stack-developer.pdf"
