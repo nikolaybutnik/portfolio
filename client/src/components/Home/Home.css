@@ -252,6 +252,13 @@
   margin-left: 25px;
 }
 
+@media only screen and (max-width: 768px) {
+  .landingPageAboutMe .resume {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .landingPageAboutMe .resume .pdfControls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,6 +269,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.landingPageAboutMe .resume .pdfControls .scalePercentage {
+  color: white;
 }
 
 .landingPageAboutMe .resume .pdfControls .increaseScale,

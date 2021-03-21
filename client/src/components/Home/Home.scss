@@ -192,10 +192,17 @@ $PrimaryColor: #06e332;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 25px;
+    @media only screen and (max-width: 768px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
     .pdfControls {
       display: flex;
       justify-content: center;
       align-items: center;
+      .scalePercentage {
+        color: white;
+      }
       .increaseScale,
       .decreaseScale,
       .downloadFile {
