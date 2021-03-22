@@ -184,22 +184,6 @@
   margin: auto;
 }
 
-.footer {
-  background-color: #dadada;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-  padding-bottom: 3px;
-  width: 100%;
-  z-index: 2;
-}
-
-@media only screen and (max-width: 768px) {
-  .footer {
-    margin-top: 300px;
-  }
-}
-
 .landingPageAboutMe {
   height: 100vh;
   display: -webkit-box;
