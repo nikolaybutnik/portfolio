@@ -244,6 +244,18 @@
   }
 }
 
+.landingPageAboutMe .resume .resumeContainer {
+  height: 75vh;
+  max-width: 430px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .landingPageAboutMe .resume .resumeContainer {
+    max-width: 95vw;
+  }
+}
+
 .landingPageAboutMe .resume .pdfControls {
   display: -webkit-box;
   display: -ms-flexbox;

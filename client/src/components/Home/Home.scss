@@ -157,6 +157,14 @@ $PrimaryColor: #06e332;
       margin-left: auto;
       margin-right: auto;
     }
+    .resumeContainer {
+      height: 75vh;
+      max-width: 430px;
+      overflow: auto;
+      @media only screen and (max-width: 768px) {
+        max-width: 95vw;
+      }
+    }
     .pdfControls {
       display: flex;
       justify-content: center;

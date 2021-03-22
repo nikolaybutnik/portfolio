@@ -128,12 +128,18 @@ const Main = () => {
           </div>
         </div>
         <div className="resume">
-          <Document
-            file="assets/nikolay-butnik-full-stack-developer.pdf"
-            renderMode="svg"
-          >
-            <Page pageNumber={1} scale={pdfScale} loading="Loading resume..." />
-          </Document>
+          <div className="resumeContainer">
+            <Document
+              file="assets/nikolay-butnik-full-stack-developer.pdf"
+              renderMode="svg"
+            >
+              <Page
+                pageNumber={1}
+                scale={pdfScale}
+                loading="Loading resume..."
+              />
+            </Document>
+          </div>
 
           {/* Using the PDF controls messes up Typical. 
           Rerender Typical if controls are used */}
