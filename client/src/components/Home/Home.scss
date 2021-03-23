@@ -134,6 +134,7 @@ $PrimaryColor: #06e332;
     width: 400px;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 25px;
     img {
       float: left;
       border: 5px solid rgb(218, 218, 218);
@@ -153,14 +154,16 @@ $PrimaryColor: #06e332;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 25px;
+    margin-right: 25px;
     @media only screen and (max-width: 768px) {
       margin-left: auto;
       margin-right: auto;
     }
     .resumeContainer {
       height: 75vh;
-      max-width: 430px;
+      max-width: 600px;
       overflow: auto;
+
       @media only screen and (max-width: 768px) {
         max-width: 95vw;
       }
@@ -169,6 +172,7 @@ $PrimaryColor: #06e332;
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-bottom: 25px;
       .scalePercentage {
         color: rgb(218, 218, 218);
       }

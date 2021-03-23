@@ -21,8 +21,10 @@ function App() {
           <Route path="/home" component={() => <Home />} />
           <Route path="/portfolio" component={() => <Portfolio />} />
           <Route path="/about" component={() => <About />} />
-          <div className="footer"> © 2021 Nikolay Butnik</div>
         </main>
+        <footer className="footerContainer">
+          <div className="footer"> © 2021 Nikolay Butnik</div>
+        </footer>
       </>
     </Router>
   )

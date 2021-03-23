@@ -1,8 +1,8 @@
-main {
+.footerContainer {
   position: relative;
 }
 
-main .footer {
+.footerContainer .footer {
   background-color: #dadada;
   text-align: center;
   position: absolute;
@@ -10,12 +10,5 @@ main .footer {
   padding-bottom: 3px;
   width: 100%;
   z-index: 2;
-}
-
-@media only screen and (max-width: 768px) {
-  main .footer {
-    margin-top: 300px;
-    bottom: 0;
-  }
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,4 +1,4 @@
-main {
+.footerContainer {
   position: relative;
   .footer {
     background-color: rgb(218, 218, 218);
@@ -8,9 +8,9 @@ main {
     padding-bottom: 3px;
     width: 100%;
     z-index: 2;
-    @media only screen and (max-width: 768px) {
-      margin-top: 300px;
-      bottom: 0;
-    }
+    // @media only screen and (max-width: 768px) {
+    //   position: absolute;
+    //   bottom: 0;
+    // }
   }
 }
