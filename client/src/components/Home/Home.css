@@ -10,7 +10,7 @@
 @media only screen and (max-width: 768px) {
   #myHome {
     /* For mobile phones: */
-    font-size: 20px;
+    font-size: 17px;
   }
 }
 
@@ -213,6 +213,12 @@
   margin-left: 25px;
 }
 
+@media only screen and (max-width: 768px) {
+  .landingPageAboutMe .aboutMeContent {
+    max-width: 95vw;
+  }
+}
+
 .landingPageAboutMe .aboutMeContent img {
   float: left;
   border: 5px solid #dadada;
@@ -247,6 +253,15 @@
 }
 
 .landingPageAboutMe .resume .resumeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 75vh;
   max-width: 600px;
   overflow: auto;
