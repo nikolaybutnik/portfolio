@@ -33,6 +33,7 @@ $PrimaryColor: #06e332;
 
 .landingPage {
   width: 100%;
+  margin-bottom: 15%;
   hr.solidDivider {
     border-top: 2px solid white;
     margin: 0;
@@ -48,7 +49,7 @@ $PrimaryColor: #06e332;
     flex-direction: column;
     @media only screen and (max-width: 768px) {
       /* For mobile phones: */
-      height: 50vh;
+      height: 55vh;
     }
     img {
       width: 225px;
@@ -83,7 +84,7 @@ $PrimaryColor: #06e332;
         margin-top: 20px;
         @media only screen and (max-width: 768px) {
           /* For mobile phones: */
-          font-size: 16px;
+          font-size: 15px;
         }
       }
     }
@@ -133,6 +134,7 @@ $PrimaryColor: #06e332;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 25px;
+    margin-right: 25px;
     @media only screen and (max-width: 768px) {
       max-width: 95vw;
     }
@@ -164,9 +166,9 @@ $PrimaryColor: #06e332;
       height: 75vh;
       max-width: 600px;
       overflow: auto;
-
       @media only screen and (max-width: 768px) {
         max-width: 95vw;
+        height: 100%;
       }
     }
     .pdfControls {
