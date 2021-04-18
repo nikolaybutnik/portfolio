@@ -1,8 +1,18 @@
 const projectStore = [
   {
-    title: 'STAR ACADEMY',
+    title: 'CRYPTOGRAPH',
     imgDesktop: 'assets/images/optimized/optimizedImage0.png',
     imgMobile: 'assets/images/optimized/optimizedImage1.png',
+    alt: 'CryptoGraph',
+    description:
+      'Graph cryptocurrency price history and compare trends on different exchanges.',
+    link: 'https://agile-caverns-16859.herokuapp.com/',
+    github: 'https://github.com/nikolaybutnik/CryptoGraph',
+  },
+  {
+    title: 'STAR ACADEMY',
+    imgDesktop: 'assets/images/optimized/optimizedImage2.png',
+    imgMobile: 'assets/images/optimized/optimizedImage3.png',
     alt: 'Star Academy',
     description: 'Learn music the fun way with daily theory quizzes.',
     link: 'https://guarded-crag-12899.herokuapp.com/',
@@ -10,8 +20,8 @@ const projectStore = [
   },
   {
     title: 'OOP GENERAL HOSPITAL',
-    imgDesktop: 'assets/images/optimized/optimizedImage2.png',
-    imgMobile: 'assets/images/optimized/optimizedImage3.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage4.png',
+    imgMobile: 'assets/images/optimized/optimizedImage5.png',
     alt: 'OOP Genral Hospital',
     description:
       'A web application that utilizes databases to simulate a humorous hospital scenario.',
@@ -20,8 +30,8 @@ const projectStore = [
   },
   {
     title: 'STOCKBUDDY',
-    imgDesktop: 'assets/images/optimized/optimizedImage4.png',
-    imgMobile: 'assets/images/optimized/optimizedImage5.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage6.png',
+    imgMobile: 'assets/images/optimized/optimizedImage7.png',
     alt: 'Stockbuddy',
     description:
       'Stockbuddy is a web application that helps beginners enter the world of stock trading.',
@@ -30,8 +40,8 @@ const projectStore = [
   },
   {
     title: 'GOOGLE BOOKS SEARCH',
-    imgDesktop: 'assets/images/optimized/optimizedImage6.png',
-    imgMobile: 'assets/images/optimized/optimizedImage7.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage8.png',
+    imgMobile: 'assets/images/optimized/optimizedImage9.png',
     alt: 'Google Books Search',
     description:
       'A web application that allows the user the search for books and save their favorites.',
@@ -40,8 +50,8 @@ const projectStore = [
   },
   {
     title: 'WEATHER DASHBOARD',
-    imgDesktop: 'assets/images/optimized/optimizedImage8.png',
-    imgMobile: 'assets/images/optimized/optimizedImage9.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage10.png',
+    imgMobile: 'assets/images/optimized/optimizedImage11.png',
     alt: 'Weather Dashboard',
     description:
       'Search for immediate and future weather conditions around the world.',
@@ -50,8 +60,8 @@ const projectStore = [
   },
   {
     title: 'WORK DAY SCHEDULER',
-    imgDesktop: 'assets/images/optimized/optimizedImage10.png',
-    imgMobile: 'assets/images/optimized/optimizedImage11.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage12.png',
+    imgMobile: 'assets/images/optimized/optimizedImage13.png',
     alt: 'Work Day Scheduler',
     description: 'A simple calendar tool to organize the current work day.',
     link: 'https://nikolaybutnik.github.io/work-day-scheduler/',
@@ -59,8 +69,8 @@ const projectStore = [
   },
   {
     title: 'EAT-DA-BURGER!',
-    imgDesktop: 'assets/images/optimized/optimizedImage12.png',
-    imgMobile: 'assets/images/optimized/optimizedImage13.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage14.png',
+    imgMobile: 'assets/images/optimized/optimizedImage15.png',
     alt: 'Eat-Da-Burger',
     description:
       'A web application that keeps track of the burgers you want to eat, and those you have eaten!',
@@ -69,8 +79,8 @@ const projectStore = [
   },
   {
     title: 'EMPLOYEE DIRECTORY',
-    imgDesktop: 'assets/images/optimized/optimizedImage14.png',
-    imgMobile: 'assets/images/optimized/optimizedImage15.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage16.png',
+    imgMobile: 'assets/images/optimized/optimizedImage17.png',
     alt: 'Employee Directory',
     description:
       'A web application that allows the user to view, filter and sort a list of employees.',
@@ -80,6 +90,8 @@ const projectStore = [
 ]
 
 const imageStore = [
+  './client/public/assets/images/CryptographDesktop-min.png',
+  './client/public/assets/images/CryptographMobile-min.png',
   './client/public/assets/images/StarAcademyDesktop-min.png',
   './client/public/assets/images/StarAcademyMobile-min.png',
   './client/public/assets/images/OOPDesktop-min.png',
