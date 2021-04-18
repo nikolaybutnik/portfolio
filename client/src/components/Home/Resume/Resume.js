@@ -24,7 +24,7 @@ const Resume = () => {
       <div className="resume">
         <div className="resumeContainer">
           <Document
-            file="assets/nikolay-butnik-full-stack-developer.pdf"
+            file="assets/nikolay-butnik-full-stack-developer-r4.pdf"
             renderMode="svg"
           >
             <Page pageNumber={1} scale={pdfScale} loading="Loading resume..." />
