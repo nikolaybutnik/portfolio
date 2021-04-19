@@ -26,7 +26,7 @@ const imageOptimization = (array) => {
       )
   })
 }
-imageOptimization(imageStore)
+// imageOptimization(imageStore)
 
 // Define API routes here
 
