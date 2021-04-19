@@ -59,18 +59,9 @@ const projectStore = [
     github: 'https://github.com/nikolaybutnik/weather-dashboard',
   },
   {
-    title: 'WORK DAY SCHEDULER',
+    title: 'EAT-DA-BURGER!',
     imgDesktop: 'assets/images/optimized/optimizedImage12.png',
     imgMobile: 'assets/images/optimized/optimizedImage13.png',
-    alt: 'Work Day Scheduler',
-    description: 'A simple calendar tool to organize the current work day.',
-    link: 'https://nikolaybutnik.github.io/work-day-scheduler/',
-    github: 'https://github.com/nikolaybutnik/work-day-scheduler',
-  },
-  {
-    title: 'EAT-DA-BURGER!',
-    imgDesktop: 'assets/images/optimized/optimizedImage14.png',
-    imgMobile: 'assets/images/optimized/optimizedImage15.png',
     alt: 'Eat-Da-Burger',
     description:
       'A web application that keeps track of the burgers you want to eat, and those you have eaten!',
@@ -79,8 +70,8 @@ const projectStore = [
   },
   {
     title: 'EMPLOYEE DIRECTORY',
-    imgDesktop: 'assets/images/optimized/optimizedImage16.png',
-    imgMobile: 'assets/images/optimized/optimizedImage17.png',
+    imgDesktop: 'assets/images/optimized/optimizedImage14.png',
+    imgMobile: 'assets/images/optimized/optimizedImage15.png',
     alt: 'Employee Directory',
     description:
       'A web application that allows the user to view, filter and sort a list of employees.',
@@ -102,8 +93,6 @@ const imageStore = [
   './client/public/assets/images/GoogleBooksMobile-min.png',
   './client/public/assets/images/WeatherDesktop-min.png',
   './client/public/assets/images/WeatherMobile-min.png',
-  './client/public/assets/images/SchedulerDesktop-min.png',
-  './client/public/assets/images/SchedulerMobile-min.png',
   './client/public/assets/images/BurgerDesktop-min.png',
   './client/public/assets/images/BurgerMobile-min.png',
   './client/public/assets/images/EmployeesDesktop-min.png',
