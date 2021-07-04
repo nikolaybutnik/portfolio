@@ -8,11 +8,7 @@ const Portfolio = () => {
   return (
     <>
       <h1 id="myProjects">
-        <Typical
-          steps={['Projects.render()', 1500]}
-          loop={Infinity}
-          wrapper="b"
-        />
+        <Typical steps={['Projects', 1500]} loop={Infinity} wrapper="b" />
       </h1>
       <hr className="solidDividerWithMargin"></hr>
       <span className="projectContainer">

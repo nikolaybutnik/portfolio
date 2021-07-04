@@ -25,11 +25,7 @@ const Main = () => {
     <>
       <div className="landingPage">
         <h1 id="myHome">
-          <Typical
-            steps={['Welcome.message()', 1500]}
-            loop={Infinity}
-            wrapper="b"
-          />
+          <Typical steps={['Welcome', 1500]} loop={Infinity} wrapper="b" />
         </h1>
         <hr className="solidDivider"></hr>
 
