@@ -93,25 +93,21 @@ const Main = () => {
           <img src="assets/images/profile.png" alt="Profile"></img>
           <div className="aboutMeText">
             <p>
-              Hey there, my name is Nik. I'm a full stack developer with a
-              background in construction estimation and a passion for coding.
-            </p>
-            <p>
-              Problem solving has been a running theme throughout my career in
-              construction, and I use my background in a highly fast-paced and
-              results driven environment to create effective and timely
-              solutions through both front end and back end technologies.
+              Hey, I'm Nik, a full stack web developer with a background in
+              construction and an interest in all things tech.
             </p>
             <p>
               I'm a relentless pursuer of personal and career growth, and a
-              strong believer that effort will always trump talent. My greatest
-              asset is the ability and willingness to learn anything, and I am
-              always enthusiastic to add a new tool to my arsenal.
+              strong believer that effort will always trump talent. I pride
+              myself on my ability to pick up any skill I need to achieve my
+              goals. I tackle new challenges with enthusiasm, and love the
+              feeling of overcoming a difficult obstacle.
             </p>
             <p>
-              I truly believe code is among the greatest and most impactful
-              tools known to us, and if you share this belief I would love to
-              hear from you!
+              Studying code has been one of the best decisions I've ever made,
+              and allows me to tackle challenges I never thought possible. If
+              you share my enthusiasm, please feel free to reach out through the
+              social media links in the header.
             </p>
           </div>
         </div>
