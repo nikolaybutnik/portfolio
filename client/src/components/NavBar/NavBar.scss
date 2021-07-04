@@ -12,10 +12,8 @@
   .externalLinks {
     margin-left: auto;
     order: 2;
-    .navIcon {
-      width: 30px;
-      height: 30px;
-      margin-right: 15px;
+    svg {
+      margin-right: 10px;
     }
   }
 }

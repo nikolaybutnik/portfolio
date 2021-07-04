@@ -3,6 +3,12 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import './NavBar.css'
 
+import {
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiFillGithub,
+} from 'react-icons/ai'
+
 const NavBar = () => {
   const navRef = useRef()
 
@@ -40,33 +46,21 @@ const NavBar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="navIcon"
-                src="assets/images/linkedinIconNav.png"
-                alt="Twitter"
-              />
+              <AiFillLinkedin size={30} color={'rgb(70, 70, 70)'} />
             </a>
             <a
               href="https://github.com/nikolaybutnik"
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="navIcon"
-                src="assets/images/githubIconNav.png"
-                alt="GitHub"
-              />
+              <AiFillGithub size={29} color={'rgb(70, 70, 70)'} />
             </a>
             <a
               href="https://twitter.com/nikolaybutnik"
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="navIcon"
-                src="assets/images/twitterIconNav.png"
-                alt="Twitter"
-              />
+              <AiFillTwitterCircle size={30} color={'rgb(70, 70, 70)'} />
             </a>
           </div>
         </Navbar.Collapse>

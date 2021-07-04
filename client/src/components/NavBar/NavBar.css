@@ -20,10 +20,8 @@
           order: 2;
 }
 
-.navbar .externalLinks .navIcon {
-  width: 30px;
-  height: 30px;
-  margin-right: 15px;
+.navbar .externalLinks svg {
+  margin-right: 10px;
 }
 
 .sticky {
