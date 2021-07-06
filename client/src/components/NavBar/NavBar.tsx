@@ -10,7 +10,7 @@ import {
 } from 'react-icons/ai'
 
 const NavBar = () => {
-  const navRef = useRef()
+  const navRef = useRef(document.createElement('div'))
 
   useEffect(() => {
     const sticky = navRef.current.offsetTop
