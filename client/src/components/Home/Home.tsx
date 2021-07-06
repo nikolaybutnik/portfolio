@@ -4,21 +4,25 @@ import './Home.css'
 
 import Resume from './Resume/Resume'
 
-import Typical from 'react-typical'
-
 import { IconContext } from 'react-icons'
 import { BiDownArrow } from 'react-icons/bi'
 
 import { Link } from 'react-scroll'
 
-const Main = () => {
+import Typical from 'react-typical'
+
+const Home = () => {
   // Change image source on avatar mouse hover.
-  const avatarRef = useRef()
+  const avatarRef = useRef<HTMLImageElement>(null)
   const handleMouseEnter = () => {
-    avatarRef.current.setAttribute('src', 'assets/images/avatar-silly.png')
+    if (avatarRef.current !== null) {
+      avatarRef.current.setAttribute('src', 'assets/images/avatar-silly.png')
+    }
   }
   const handleMouseLeave = () => {
-    avatarRef.current.setAttribute('src', 'assets/images/avatar-default.png')
+    if (avatarRef.current !== null) {
+      avatarRef.current.setAttribute('src', 'assets/images/avatar-default.png')
+    }
   }
 
   return (
@@ -84,7 +88,7 @@ const Main = () => {
         </Link>
       </div>
 
-      <div className="landingPageAboutMe" name="landingPageAboutMe">
+      <div className="landingPageAboutMe" data-name="landingPageAboutMe">
         <div className="aboutMeContent">
           <img src="assets/images/profile.png" alt="Profile"></img>
           <div className="aboutMeText">
@@ -115,4 +119,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Home
