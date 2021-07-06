@@ -10,18 +10,20 @@ import {
 } from 'react-icons/ai'
 
 const NavBar = () => {
-  const navRef = useRef(document.createElement('div'))
+  const navRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const sticky = navRef.current.offsetTop
+    const sticky = navRef.current !== null && navRef.current.offsetTop
     window.onscroll = () => {
       stickyNav()
     }
     const stickyNav = () => {
-      if (window.pageYOffset > sticky) {
-        navRef.current.classList.add('sticky')
-      } else {
-        navRef.current.classList.remove('sticky')
+      if (navRef.current !== null) {
+        if (window.pageYOffset > sticky) {
+          navRef.current.classList.add('sticky')
+        } else {
+          navRef.current.classList.remove('sticky')
+        }
       }
     }
   })
