@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import './NavBar.css'
+import '../../css/NavBar.css'
 
 import {
   AiFillLinkedin,

@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useRef } from 'react'
-import './Home.css'
+import '../../css/Home.css'
 
 import Resume from './Resume/Resume'
 

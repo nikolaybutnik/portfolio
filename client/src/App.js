@@ -4,7 +4,7 @@ import NavBar from './components/NavBar/NavBar'
 import Home from './components/Home/Home'
 import Portfolio from './components/Portfolio/Portfolio'
 import About from './components/About/About'
-import './App.css'
+import './css/App.css'
 
 function App() {
   const [backgroundColor] = useState({ color: '#3A3A3A' })

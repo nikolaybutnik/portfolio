@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import './Project.css'
+import '../../../css/Project.css'
 
 const ProjectV2 = ({
   project: { title, imgDesktop, imgMobile, alt, description, link, github },
