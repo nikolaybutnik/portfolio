@@ -1,15 +1,23 @@
+// Fonts
+@pixel-font: 'Press Start 2P', cursive;
+@noto-sans-font: 'Noto Sans JP', sans-serif;
+// Variables
 @PrimaryColor: #06e332;
+// Mixins
+.flex-hor-ver-center(@horizontal, @vertical) {
+  display: flex;
+  justify-content: @horizontal;
+  align-items: @vertical;
+}
 
 #myHome {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 25px;
+  font-family: @pixel-font;
+  font-size: 1.3rem;
   color: @PrimaryColor;
-  margin-left: 20px;
-  margin-top: 15px;
-  margin-bottom: 13px;
+  margin: 15px 0 13px 20px;
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    font-size: 17px;
+    font-size: 1rem;
   }
 }
 
@@ -39,12 +47,10 @@
     margin: 0;
   }
   .backgroundContainer {
+    .flex-hor-ver-center(center, center);
     position: relative;
     width: 100%;
     height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     flex-direction: column;
     @media only screen and (max-width: 768px) {
@@ -78,13 +84,13 @@
       h1 {
         opacity: 1;
         text-align: center;
-        font-family: 'Press Start 2P', cursive;
-        font-size: 20px;
+        font-family: @pixel-font;
+        font-size: 1.2rem;
         color: @PrimaryColor;
         margin-top: 20px;
         @media only screen and (max-width: 768px) {
           /* For mobile phones: */
-          font-size: 15px;
+          font-size: 1rem;
         }
       }
     }
@@ -123,8 +129,7 @@
 }
 
 .landingPageAboutMe {
-  display: flex;
-  justify-content: center;
+  .flex-hor-ver-center(center, none);
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
@@ -132,8 +137,7 @@
   .aboutMeContent {
     width: 400px;
     align-items: flex-start;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0 25px 0 25px;
     @media only screen and (max-width: 768px) {
       max-width: 95vw;
     }
@@ -149,17 +153,13 @@
     }
     .aboutMeText {
       color: rgb(218, 218, 218);
-      font-family: 'Noto Sans JP', sans-serif;
+      font-family: @noto-sans-font;
     }
   }
   .resume {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: auto 25px auto 25px;
     @media only screen and (max-width: 768px) {
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
     }
     .resumeContainer {
       height: 75vh;
@@ -171,9 +171,7 @@
       }
     }
     .pdfControls {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      .flex-hor-ver-center(center, center);
       margin-bottom: 25px;
       .scalePercentage {
         color: rgb(218, 218, 218);
