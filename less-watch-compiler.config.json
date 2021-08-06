@@ -1,0 +1,8 @@
+{
+  "watchFolder": "client/src/less",
+  "outputFolder": "client/src/css",
+  "sourceMap": false,
+  "minified": false,
+  "enableJs": true,
+  "allowedExtensions": [".less"]
+}
