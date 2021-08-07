@@ -6,7 +6,7 @@ hr.solidDividerWithMargin {
 }
 #myProjects {
   font-family: 'Press Start 2P', cursive;
-  font-size: 25px;
+  font-size: 1.3rem;
   color: #06e331;
   margin-left: 20px;
   margin-top: 15px;
@@ -15,7 +15,7 @@ hr.solidDividerWithMargin {
 @media only screen and (max-width: 768px) {
   #myProjects {
     /* For mobile phones: */
-    font-size: 17px;
+    font-size: 1rem;
   }
 }
 .projectContainer {
