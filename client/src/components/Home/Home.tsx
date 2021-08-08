@@ -74,7 +74,7 @@ const Home = () => {
         </div>
 
         <hr className="solidDivider"></hr>
-        <Link to="landingPageAboutMe" smooth={true} offset={-50}>
+        <Link to="landingPageAboutMe" smooth={false} offset={-50}>
           <IconContext.Provider
             value={{
               color: 'white',
