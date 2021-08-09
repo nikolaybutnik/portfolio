@@ -4,8 +4,8 @@ import '../../../css/Project.css'
 const ProjectV2 = ({
   project: { title, imgDesktop, imgMobile, alt, description, link, github },
 }) => {
-  const refLaptop = useRef()
-  const refMobile = useRef()
+  const refLaptop = useRef<HTMLDivElement | null>(null)
+  const refMobile = useRef<HTMLDivElement | null>(null)
 
   // Card animation as mouse hovers over the container
   const handleMouseMove = (event, ref) => {
