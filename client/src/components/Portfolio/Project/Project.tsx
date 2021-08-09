@@ -1,24 +1,39 @@
 import React, { useRef } from 'react'
 import '../../../css/Project.css'
 
-const ProjectV2 = ({
+interface Props {
+  project: {
+    title: string
+    imgDesktop: string
+    imgMobile: string
+    alt: string
+    description: string
+    link: string
+    github: string
+  }
+}
+
+const ProjectV2: React.FC<Props> = ({
   project: { title, imgDesktop, imgMobile, alt, description, link, github },
 }) => {
   const refLaptop = useRef<HTMLDivElement | null>(null)
   const refMobile = useRef<HTMLDivElement | null>(null)
 
   // Card animation as mouse hovers over the container
-  const handleMouseMove = (event, ref) => {
-    const cumulativeOffset = (element) => {
-      const width = element.offsetWidth
-      const height = element.offsetHeight
+  const handleMouseMove = (
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
+    ref: React.MutableRefObject<HTMLDivElement | null>
+  ) => {
+    const cumulativeOffset = (element: HTMLDivElement | null) => {
+      const width = element!.offsetWidth
+      const height = element!.offsetHeight
       let top = 0,
         left = 0
 
       do {
-        left += element.offsetLeft || 0
-        top += element.offsetTop || 0
-        element = element.offsetParent
+        left += element!.offsetLeft || 0
+        top += element!.offsetTop || 0
+        element = element!.offsetParent as HTMLDivElement
       } while (element)
 
       return {
@@ -42,19 +57,25 @@ const ProjectV2 = ({
         event.pageY) /
       15
 
-    ref.current.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
+    ref.current!.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
   }
 
   // Animations as mouse enters the container
-  const handleMouseEnter = (event, ref) => {
-    ref.current.style.transition = 'none'
+  const handleMouseEnter = (
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
+    ref: React.MutableRefObject<HTMLDivElement | null>
+  ) => {
+    ref.current!.style.transition = 'none'
     // ref.current.style.transform = 'translateZ(75px)'
   }
 
   // Animations as mouse leaves the container
-  const handleMouseLeave = (event, ref) => {
-    ref.current.style.transition = 'all 0.5s ease'
-    ref.current.style.transform = 'rotateY(0deg) rotateX(0deg)'
+  const handleMouseLeave = (
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>,
+    ref: React.MutableRefObject<HTMLDivElement | null>
+  ) => {
+    ref.current!.style.transition = 'all 0.5s ease'
+    ref.current!.style.transform = 'rotateY(0deg) rotateX(0deg)'
     // ref.current.style.transform = 'translateZ(0)'
   }
 
