@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useRef } from 'react'
 import '../../css/Home.css'
 
