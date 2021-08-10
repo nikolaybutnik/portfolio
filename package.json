@@ -21,8 +21,6 @@
   "dependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^16.0.0",
-    "@types/react": "^17.0.13",
-    "@types/react-dom": "^17.0.8",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "sharp": "^0.27.2",
