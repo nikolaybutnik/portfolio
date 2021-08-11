@@ -21,6 +21,7 @@
   "dependencies": {
     "@types/jest": "^26.0.23",
     "@types/node": "^16.0.0",
+    "@types/react-pdf": "^5.0.5",
     "express": "^4.17.1",
     "if-env": "^1.0.4",
     "sharp": "^0.27.2",
