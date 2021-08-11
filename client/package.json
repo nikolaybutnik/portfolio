@@ -45,11 +45,6 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^17.0.16",
-    "@types/react-dom": "^17.0.9",
-    "@types/react-pdf": "^5.0.5",
-    "@types/react-router-dom": "^5.1.8",
-    "@types/react-scroll": "^1.8.2",
     "less": "^4.1.1"
   }
 }
